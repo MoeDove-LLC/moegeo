@@ -1,0 +1,21 @@
+# ============================================================
+#  Geofeed 提交模板 / Geofeed Submission Template
+# ============================================================
+#  请复制此文件并重命名为您的 ASN 编号，例如 AS12345.yml
+#  Please copy this file and rename it to your ASN, e.g. AS12345.yml
+# ============================================================
+
+# 组织名称 / Organization Name
+name: "Pigeon Internet"
+
+# 自治系统号 / Autonomous System Number
+asn: "AS198304"
+
+# 联系邮箱 / Contact Email
+contact: "pigeon@moedove.com"
+
+# Geofeed URL 列表 / Geofeed URL List
+# 支持多个 URL，每个 URL 应指向一个符合 RFC 8805 标准的 CSV 文件
+# Multiple URLs supported, each should point to an RFC 8805 compliant CSV file
+geofeed_urls:
+  - "https://pigontele.com/geofeed.csv"
