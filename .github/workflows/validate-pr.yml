@@ -64,8 +64,8 @@ jobs:
             fi
             
             echo "Validating $file..."
-            OUTPUT=$(python scripts/validate_feed.py "$file" "$EMAIL" "$VERIFIED" 2>&1)
-            EXIT_CODE=$?
+            EXIT_CODE=0
+            OUTPUT=$(python scripts/validate_feed.py "$file" "$EMAIL" "$VERIFIED" 2>&1) || EXIT_CODE=$?
             
             COMMENTS="${COMMENTS}\n\n### Validation for \`$file\`\n"
             if [ $EXIT_CODE -eq 0 ]; then
