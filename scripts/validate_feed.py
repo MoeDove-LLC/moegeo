@@ -8,7 +8,7 @@ import csv
 from collections import OrderedDict
 
 # Country codes that will be excluded from aggregation
-BLOCKED_COUNTRIES = {"KP", "AQ"}
+BLOCKED_COUNTRIES = {"KP", "AQ", "IR"}
 
 def check_rdap_email(asn, target_email):
     try:

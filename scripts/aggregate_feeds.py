@@ -10,7 +10,7 @@ FEEDS_DIR = "feeds"
 OUTPUT_FILE = "output/geofeed.csv"
 
 # Country codes that will be excluded from the aggregated output
-BLOCKED_COUNTRIES = {"KP", "AQ"}
+BLOCKED_COUNTRIES = {"KP", "AQ", "IR"}
 
 def load_previous_state():
     state = {}
