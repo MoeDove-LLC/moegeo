@@ -9,7 +9,7 @@
 name: "Example Network Inc."
 
 # 自治系统号 / Autonomous System Number
-asn: "AS12345"
+asn: "AS123456"
 
 # 联系邮箱 / Contact Email
 contact: "noc@example.com"
