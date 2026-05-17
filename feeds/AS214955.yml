@@ -1,0 +1,14 @@
+# 组织名称 / Organization Name
+name: "LaunchPad Network"
+
+# 自治系统号 / Autonomous System Number
+asn: "AS214955"
+
+# 联系邮箱 / Contact Email
+contact: "i@launchpadx.top"
+
+# Geofeed URL 列表 / Geofeed URL List
+# 支持多个 URL，每个 URL 应指向一个符合 RFC 8805 标准的 CSV 文件
+# Multiple URLs supported, each should point to an RFC 8805 compliant CSV file
+geofeed_urls:
+  - "https://geofeeds.launchpadx.top/geofeed.csv"
