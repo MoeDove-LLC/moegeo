@@ -1,0 +1,8 @@
+name: "Jilin Province Brick Business Service Limited"
+
+asn: "AS153376"
+
+contact: "noc.brnic@zhuantou.com.cn"
+
+geofeed_urls:
+  - "https://geofeed.nia.ink/geofeed.csv"
