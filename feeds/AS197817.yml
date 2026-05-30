@@ -1,0 +1,8 @@
+name: "Nyco Cloud Network"
+
+asn: "AS197817"
+
+contact: "noc@nyco.cloud"
+
+geofeed_urls:
+  - "https://nyco.cloud/geofeed.csv"
