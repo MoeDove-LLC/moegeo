@@ -1,0 +1,11 @@
+# 组织名称 / Organization Name
+name: "OwONetwork"
+
+# 自治系统号 / Autonomous System Number
+asn: "AS150184"
+
+# 联系邮箱 / Contact Email
+contact: "noc@owonet.work"
+
+geofeed_urls:
+  - "https://static-files.owonet.work/geofeed.csv"
