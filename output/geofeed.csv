@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-06-15T07:14:02.872070+00:00
-# Total prefixes: 291
+# Generated at: 2026-06-16T07:23:00.630497+00:00
+# Total prefixes: 315
 
 # AS150184 - OwONetwork - Last change: Tue, 02 Jun 2026 12:58:03 GMT
 2406:840:e301::/48,HK,,Hong Kong,
@@ -170,6 +170,28 @@
 2a0f:6284:4cd0::/44,DE,DE-HE,Frankfurt,
 2a14:67c3:30::/44,GB,GB-LND,London,
 
+# AS23347 - ZYC Network LLC - Last change: Mon, 15 Jun 2026 03:43:35 GMT
+2602:814:F000::/46,US,,,
+2602:814:F000::/48,US,US-CA,Los Angeles,
+2602:814:F001::/48,US,US-MO,Kansas City,
+2602:814:F004::/48,CA,CA-ON,Toronto,
+2602:814:F005::/48,AR,AR-DF,Autonomous City of Buenos Aires,
+2602:814:F006::/48,CN,,,
+2602:814:F006::/64,CN,CN-HA,ZhengZhou,
+2602:814:F006:1::/64,CN,CN-BJ,BeiJing,
+2602:814:F007::/48,HK,,Hong Kong,
+2602:814:F008::/48,TW,TW-TPE,Taipei,
+2602:814:F009::/48,SG,SG-01,Singapore,
+2602:814:F00A::/48,JP,JP-13,Tokyo,
+2602:814:F00B::/48,TR,TR-06,Ankara,
+2602:814:F00C::/46,DE,,,
+2602:814:F00C::/48,DE,DE-HE,Frankfurt am Main,
+2602:814:F00E::/48,DE,DE-SN,Falkenstein,
+2602:814:F010::/46,NL,NL-NH,Amsterdam,
+2602:814:F014::/48,AU,AU-VIC,Melbourne,
+2602:814:F015::/48,SG,SG-01,Singapore,
+2602:F921:E00::/44,PH,PH-00,Manila,
+
 # AS402333 - Tianshome Network Services - Last change: Mon, 08 Jun 2026 06:39:23 GMT
 2001:678:1184:8500::/56,HK,,Hong Kong (Chek Lap Kok),
 2001:678:1184:8700::/56,MO,,Macau (Taipa),
@@ -304,6 +326,12 @@
 85.149.219.0/24,JP,JP-36,Okuizumo,699-1511
 2602:F9A9:110::/44,JP,JP-36,Okuizumo,699-1511
 2602:FAA8:260::/44,JP,JP-36,Okuizumo,699-1511
+
+# AS62711 - Maxwell Telecom LLC - Last change: Sun, 14 Jun 2026 18:34:09 GMT
+23.175.200.0/24,US,US-CA,Los Angeles,
+23.175.201.0/24,HK,,Hong Kong,
+2602:F921::/44,US,,,
+2602:f921:4::/46,US,US-MO,Kansas City,
 
 # AS215172 - JianyueLab LTD - Last change: Wed, 27 May 2026 11:26:46 GMT
 82.39.145.0/24,JP,JP-13,Chiyoda,100-0004
