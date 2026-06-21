@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-06-20T06:17:12.650342+00:00
-# Total prefixes: 914
+# Generated at: 2026-06-21T06:47:38.359569+00:00
+# Total prefixes: 898
 
 # AS140227 - HONG KONG COMMUNICATIONS INTERNATIONAL CO., LIMITED - Last change: Tue, 16 Jun 2026 05:38:15 GMT
 177.2.16.0/24,US,US-CA,Los Angeles,
@@ -937,21 +937,3 @@
 23.175.201.0/24,HK,,Hong Kong,
 2602:F921::/44,US,,,
 2602:f921:4::/46,US,US-MO,Kansas City,
-
-# AS215172 - JianyueLab LTD - Last change: Thu, 11 Jun 2026 00:21:01 GMT
-82.39.145.0/24,JP,JP-13,Chiyoda,100-0004
-178.83.178.0/24,JP,JP-13,Chiyoda,100-0004
-208.68.182.0/24,JP,JP-13,Chiyoda,100-0004
-2a0f:1cc5:208::/48,JP,JP-13,Chiyoda,100-0004
-2a0f:1cc5:210::/48,JP,JP-13,Chiyoda,100-0004
-2a0f:1cc5:220::/44,JP,JP-13,Chiyoda,100-0004
-2a0f:1cc5:230::/44,JP,JP-13,Chiyoda,100-0004
-2a0f:1cc5:240::/44,HK,,Hong Kong,
-2a0f:1cc5:250::/44,US,,Fremont,
-2a0f:1cc5:260::/44,TW,,Taipei,
-2a0f:1cc5:270::/44,HK,,Hong Kong,
-2a0f:1cc5:280::/44,MY,,Johor,
-2a0f:1cc5:290::/44,DE,,Frankfurt,
-2a0f:1cc5:2a0::/44,CA,,Toronto,
-2a0f:1cc5:2b0::/44,NL,,Amsterdam,
-2a12:cb40::/29,UK,,London,
