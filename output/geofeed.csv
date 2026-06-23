@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-06-22T07:20:11.022060+00:00
-# Total prefixes: 914
+# Generated at: 2026-06-23T06:03:26.609580+00:00
+# Total prefixes: 915
 
 # AS140227 - HONG KONG COMMUNICATIONS INTERNATIONAL CO., LIMITED - Last change: Tue, 16 Jun 2026 05:38:15 GMT
 177.2.16.0/24,US,US-CA,Los Angeles,
@@ -591,7 +591,7 @@
 2a0f:1cc5:3700::/44,HK,,Hong Kong,
 2a0f:1cc5:3710::/44,TW,,Taipei,
 
-# AS153376 - Jilin Province Brick Business Service Limited - Last change: Tue, 16 Jun 2026 16:30:33 GMT
+# AS153376 - Jilin Province Brick Business Service Limited - Last change: Mon, 22 Jun 2026 09:29:06 GMT
 2406:840:e600::/44,CN,CN-JL,Changchun,
 2406:840:e600::/45,CN,CN-ZJ,Hangzhou,
 2a0f:1cc5:10::/44,HK,,,
@@ -611,7 +611,8 @@
 2a12:cb41:1200::/44,JP,JP-13,Tokyo,
 2a12:cb41:1210::/44,JP,,,
 2a12:cb41:1300::/44,HK,,Hong Kong,
-2a12:cb41:1500::/44,,,,
+2a12:cb41:1310::/44,SG,SG-01,Singapore,
+2a12:cb41:13f0::/44,,,,
 
 # AS197817 - Nyco Cloud Network - Last change: Sun, 31 May 2026 03:24:12 GMT
 2a14:ae00:51::/48,HK,,Hong Kong,
