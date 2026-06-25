@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-06-24T06:03:15.652397+00:00
-# Total prefixes: 915
+# Generated at: 2026-06-25T06:03:06.501573+00:00
+# Total prefixes: 923
 
 # AS140227 - HONG KONG COMMUNICATIONS INTERNATIONAL CO., LIMITED - Last change: Tue, 16 Jun 2026 05:38:15 GMT
 177.2.16.0/24,US,US-CA,Los Angeles,
@@ -591,14 +591,13 @@
 2a0f:1cc5:3700::/44,HK,,Hong Kong,
 2a0f:1cc5:3710::/44,TW,,Taipei,
 
-# AS153376 - Jilin Province Brick Business Service Limited - Last change: Mon, 22 Jun 2026 09:29:06 GMT
+# AS153376 - Jilin Province Brick Business Service Limited - Last change: Thu, 25 Jun 2026 02:35:36 GMT
 2406:840:e600::/44,CN,CN-JL,Changchun,
 2406:840:e600::/45,CN,CN-ZJ,Hangzhou,
 2a0f:1cc5:10::/44,HK,,,
 44.32.191.0/24,HK,,,
 44.32.191.11/32,JP,JP-13,Tokyo,
 44.32.191.12/32,CA,CA-ON,Toronto,
-44.32.191.128/28,CN,CN-JL,Antu,
 44.32.191.13/32,JP,JP-13,Tokyo,
 44.32.191.16/27,CN,CN-ZJ,Hangzhou,
 44.32.191.48/27,JP,JP-13,Tokyo,
@@ -613,6 +612,7 @@
 2a12:cb41:1300::/44,HK,,Hong Kong,
 2a12:cb41:1310::/44,SG,SG-01,Singapore,
 2a12:cb41:13f0::/44,,,,
+44.32.191.128/28,CN,CN-JL,Antu,
 
 # AS197817 - Nyco Cloud Network - Last change: Sun, 31 May 2026 03:24:12 GMT
 2a14:ae00:51::/48,HK,,Hong Kong,
@@ -938,6 +938,16 @@
 23.175.201.0/24,HK,,Hong Kong,
 2602:F921::/44,US,,,
 2602:f921:4::/46,US,US-MO,Kansas City,
+
+# AS204921 - YunZheng LAB - Last change: Thu, 25 Jun 2026 06:03:04 GMT
+142.249.114.0/24,HK,,Kwai Chung,
+2a0e:aa07:e253::/48,HK,,Kwai Chung,
+142.249.115.0/24,TW,TW-TPE,Taipei,
+2a0e:aa07:e252::/48,TW,TW-TPE,Taipei,
+2a0e:aa07:e251::/48,JP,JP-13,Tokyo,
+2a0e:aa07:e256::/48,DE,DE-HE,Frankfurt am Main,
+2a0e:aa07:e257::/48,US,US-WA,Seattle,
+2a0e:aa07:e258::/48,US,US-CA,San Jose,
 
 # AS215172 - JianyueLab LTD - Last change: Thu, 11 Jun 2026 00:21:01 GMT
 82.39.145.0/24,JP,JP-13,Chiyoda,100-0004
