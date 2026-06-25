@@ -1,0 +1,8 @@
+name: "YunZheng LAB"
+
+asn: "AS204921"
+
+contact: "noc@as204921.net"
+
+geofeed_urls:
+  - "https://files.yunzheng.space/webdav/geofeed.csv"
