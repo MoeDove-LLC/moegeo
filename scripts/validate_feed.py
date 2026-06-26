@@ -100,8 +100,13 @@ def validate_file(filepath, author_email=None, is_signed=False):
                         
                     prefix = parts[0].strip()
                     try:
-                        ipaddress.ip_network(prefix, strict=False)
+                        net = ipaddress.ip_network(prefix, strict=False)
                         has_valid_entry = True
+                        if net.is_private:
+                            warnings.append(
+                                f"⚠️ 前缀 {prefix} 属于私有地址空间，该条目将不会被汇总到聚合输出中。"
+                                f" / Prefix {prefix} is private address space, this entry will be excluded from aggregation."
+                            )
                     except ValueError:
                         errors.append(f"无效的 IP 前缀 / Invalid IP prefix '{prefix}' in {url} at valid row {row_num}")
 

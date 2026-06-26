@@ -93,6 +93,9 @@ def aggregate():
                             continue
                         try:
                             net = ipaddress.ip_network(prefix, strict=False)
+                            if net.is_private:
+                                print(f"Skipping private prefix {prefix} in {url}")
+                                continue
                             if net not in seen_prefixes:
                                 seen_prefixes.add(net)
                                 valid_lines.append(line)
@@ -103,6 +106,9 @@ def aggregate():
                         prefix = parts[0].strip()
                         try:
                             net = ipaddress.ip_network(prefix, strict=False)
+                            if net.is_private:
+                                print(f"Skipping private prefix {prefix} in {url}")
+                                continue
                             if net not in seen_prefixes:
                                 seen_prefixes.add(net)
                                 valid_lines.append(line)
