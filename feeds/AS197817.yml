@@ -6,3 +6,4 @@ contact: "noc@nyco.cloud"
 
 geofeed_urls:
   - "https://nyco.cloud/geofeed.csv"
+  - "https://dn42.xhustudio.eu.org/geofeed.csv"
