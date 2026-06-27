@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-06-26T06:06:44.740837+00:00
-# Total prefixes: 923
+# Generated at: 2026-06-27T05:50:24.195165+00:00
+# Total prefixes: 958
 
 # AS140227 - HONG KONG COMMUNICATIONS INTERNATIONAL CO., LIMITED - Last change: Tue, 16 Jun 2026 05:38:15 GMT
 177.2.16.0/24,US,US-CA,Los Angeles,
@@ -754,7 +754,7 @@
 2a0f:1cc5:1e00::/48,JP,JP-13,Tokyo,113-0033
 2a0f:1cc5:1e01::/48,JP,JP-13,Tokyo,113-0033
 
-# AS215502 - Yxom Network - Last change: Thu, 18 Jun 2026 06:48:30 GMT
+# AS215502 - Yxom Network - Last change: Sat, 27 Jun 2026 05:50:20 GMT
 2a13:aac4:f000::/44,HK,,Central and Western,
 2a13:aac4:f00c::/48,HK,,Central and Western,
 2a13:aac4:f00d::/48,US,US-NV,Las Vegas,89119
@@ -775,6 +775,7 @@
 2a0f:6284:4cc0::/44,US,US-CA,San Francisco,
 2a0f:6284:4cd0::/44,DE,DE-HE,Frankfurt,
 2a14:67c3:30::/44,GB,GB-LND,London,
+44.30.164.0/24,TW,TW-TPE,Taipei,
 
 # AS23347 - ZYC Network LLC - Last change: Mon, 15 Jun 2026 03:43:35 GMT
 2602:814:F000::/46,US,,,
@@ -906,6 +907,42 @@
 23.158.20.220/30,NZ,NZ-AUK,Auckland,1050
 23.158.20.224/30,AU,AU-NSW,Melbourne,3004
 23.158.20.228/30,AU,AU-NSW,Melbourne,3004
+
+# AS51087 - Bling Network Ltd - Last change: Fri, 26 Jun 2026 21:23:14 GMT
+44.32.175.0/24,JP,JP-13,Tokyo,
+193.32.86.0/24,DE,DE-HE,Frankfurt,
+2a0a:6040:d801::/48,US,US-NY,New York,
+2a0a:6040:d802::/48,JP,JP-13,Tokyo,
+2a0a:6040:7d00::/48,JP,JP-13,Tokyo,
+2a0a:6040:7d01::/48,JP,JP-13,Tokyo,
+2a0a:6040:7d10::/48,LU,LU-LU,Luxembourg,
+2a0a:6040:7d11::/48,NL,NL-NH,Amsterdam,
+2a0a:6040:7d12::/48,GB,GB-LND,London,
+2a0a:6040:7d13::/48,NL,NL-NH,Amsterdam,
+2a0a:6040:7d14::/48,DE,DE-HE,Frankfurt,
+2a0a:6040:7d15::/48,DE,DE-NW,Dusseldorf,
+2a0a:6040:7d20::/48,US,US-CA,Seattle,
+2a0a:6040:7d21::/48,US,US-MO,Kansas City,
+2a0a:6040:7d22::/48,US,US-CA,Los Angeles,
+2a0a:6040:7d90::/48,HK,,Hong Kong,
+2a0a:6040:7d91::/48,HK,,Hong Kong,
+2a0a:6040:7da0::/48,TW,TW-TPE,Taipei,
+2a0a:6040:7da1::/48,US,US-CA,Seattle,
+2a0a:6040:7da2::/48,NL,NL-NH,Amsterdam,
+2a0a:6040:7da3::/48,HK,,Hong Kong,
+2a0a:6040:7da4::/48,US,US-MO,Kansas City,
+2a0a:6040:7da5::/48,NL,NL-NH,Amsterdam,
+2a0f:7803:ff70::/48,GB,GB-LND,London,
+2a0f:7803:ff71::/48,NG,NG-FC,Abuja,
+2a0f:7803:ff72::/48,AR,AR-C,Buenos Aires,
+2a0f:7803:ff73::/48,EG,EG-C,Cairo,
+2a0f:5707:fa00::/48,HK,,Hong Kong,
+2a0f:5707:fa10::/48,JP,JP-13,Tokyo,
+2a0f:5707:fa11::/48,JP,JP-13,Tokyo,
+2a0f:5707:fa20::/48,US,US-CA,San Jose,
+2a0f:5707:fa21::/48,US,US-CA,San Jose,
+2a0f:5707:fa30::/48,AU,AU-NSW,Sydney,
+2a0f:5707:fafa::/48,DE,DE-HE,Frankfurt,
 
 # AS54286 - Taipei101 Network LLC - Last change: Sat, 13 Jun 2026 06:12:59 GMT
 23.147.120.0/24,US,US-CA,El Segundo,90245
