@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-07-05T06:00:35.043440+00:00
-# Total prefixes: 958
+# Generated at: 2026-07-06T06:24:10.249534+00:00
+# Total prefixes: 962
 
 # AS140227 - HONG KONG COMMUNICATIONS INTERNATIONAL CO., LIMITED - Last change: Wed, 01 Jul 2026 09:08:26 GMT
 177.2.16.0/24,US,US-CA,Los Angeles,
@@ -652,14 +652,16 @@
 2a0f:1cc5:407::/48,HK,,Tsuen Wan,999077
 2406:840:9666::/48,MO,,Macao,999078
 
-# AS206069 - Cornseed Limited - Last change: Thu, 18 Jun 2026 07:26:08 GMT
+# AS206069 - Cornseed Limited - Last change: Sun, 05 Jul 2026 08:56:38 GMT
 87.76.198.0/24,JP,JP-13,Tokyo,
 82.22.26.0/24,JP,JP-13,Tokyo,
 82.29.38.0/24,JP,JP-13,Tokyo,
 64.204.48.0/23,JP,JP-13,Tokyo,
+87.86.87.0/24,JP,JP-13,Tokyo,
 2a14:7586:6109::/48,JP,JP-13,Tokyo,
 2a14:7586:6111::/48,JP,JP-13,Tokyo,
 2a14:7586:6112::/48,JP,JP-13,Tokyo,
+2a14:7586:6114::/48,JP,JP-13,Tokyo,
 
 # AS209294 - FansNET - Last change: Mon, 18 May 2026 09:38:43 GMT
 44.31.212.1/32,CN,CN-HB,Wuhan,
@@ -945,7 +947,7 @@
 2a0f:5707:fa30::/48,AU,AU-NSW,Sydney,
 2a0f:5707:fafa::/48,DE,DE-HE,Frankfurt,
 
-# AS54286 - Taipei101 Network LLC - Last change: Sat, 13 Jun 2026 06:12:59 GMT
+# AS54286 - Taipei101 Network LLC - Last change: Mon, 06 Jul 2026 06:24:07 GMT
 23.147.120.0/24,US,US-CA,El Segundo,90245
 64.49.28.0/24,US,US-CA,El Segundo,90245
 23.147.120.231/32,MO,MO,Taipa,420
@@ -967,6 +969,8 @@
 216.23.110.0/23,HK,HK-ISL,Lamma Island,999077
 216.23.108.0/23,JP,JP-36,Okuizumo,699-1511
 85.149.216.0/23,JP,JP-36,Okuizumo,699-1511
+85.149.216.0/24,JP,JP-36,Okuizumo,699-1511
+85.149.217.0/24,JP,JP-36,Okuizumo,699-1511
 85.149.219.0/24,JP,JP-36,Okuizumo,699-1511
 2602:F9A9:110::/44,JP,JP-36,Okuizumo,699-1511
 2602:FAA8:260::/44,JP,JP-36,Okuizumo,699-1511
