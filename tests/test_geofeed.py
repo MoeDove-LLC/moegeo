@@ -71,11 +71,17 @@ class GeofeedParserTests(unittest.TestCase):
         text = """
 8.8.4.0/24,OO,,,
 1.1.1.0/24,US,US-LOL,,
+9.9.9.0/24,EU,,,
+9.9.8.0/24,UK,,,
+9.9.7.0/24,XK,,,
 """
         entries, errors, _warnings = parse_geofeed_text(text)
 
         self.assertEqual(entries, [])
         self.assertTrue(any("Invalid alpha2code 'OO'" in error for error in errors))
+        self.assertTrue(any("Invalid alpha2code 'EU'" in error for error in errors))
+        self.assertTrue(any("Invalid alpha2code 'UK'" in error for error in errors))
+        self.assertTrue(any("Invalid alpha2code 'XK'" in error for error in errors))
         self.assertTrue(any("Invalid region code 'US-LOL'" in error for error in errors))
 
     def test_accepts_rfc8805_zz_no_geolocation_marker(self):

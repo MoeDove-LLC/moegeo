@@ -24,24 +24,10 @@ BOGON_PREFIXES_V4 = (
     (ipaddress.ip_network("240.0.0.0/4"), "reserved"),
 )
 
-ADDITIONAL_ALPHA2_CODES = (
-    # ISO 3166 exceptionally reserved / transitional codes commonly seen online.
-    "AC",
-    "CP",
-    "DG",
-    "EA",
-    "EU",
-    "EZ",
-    "FX",
-    "IC",
-    "SU",
-    "TA",
-    "UK",
-    "UN",
-    "XK",
+SPECIAL_ALPHA2_CODES = {
     # RFC 8805 section 2.1.2 notes this historical no-geolocation marker.
     "ZZ",
-)
+}
 
 
 @dataclass(frozen=True)
@@ -83,7 +69,7 @@ def find_bogon_prefix(network):
 
 def is_valid_alpha2code(alpha2code):
     normalized = alpha2code.upper()
-    if normalized in ADDITIONAL_ALPHA2_CODES:
+    if normalized in SPECIAL_ALPHA2_CODES:
         return True
     return pycountry.countries.get(alpha_2=normalized) is not None
 
