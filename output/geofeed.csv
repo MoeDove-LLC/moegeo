@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-07-08T05:17:44.459228+00:00
-# Total prefixes: 1010
+# Generated at: 2026-07-08T19:10:00.608039+00:00
+# Total prefixes: 1007
 
 # AS140227 - HONG KONG COMMUNICATIONS INTERNATIONAL CO., LIMITED - Last change: Mon, 06 Jul 2026 07:01:22 GMT
 177.2.16.0/24,US,US-CA,Los Angeles,
@@ -648,8 +648,6 @@
 44.32.191.11/32,JP,JP-13,Tokyo,
 44.32.191.12/32,CA,CA-ON,Toronto,
 44.32.191.13/32,JP,JP-13,Tokyo,
-44.32.191.16/27,CN,CN-ZJ,Hangzhou,
-44.32.191.48/27,JP,JP-13,Tokyo,
 44.32.191.6/32,HK,,,
 44.32.191.7/32,CN,CN-ZJ,Hangzhou,
 44.32.191.8/32,CN,CN-ZJ,Hangzhou,
@@ -674,7 +672,6 @@
 2a13:b487:1101::/48,CN,CN-SH,Shanghai,
 2a13:b487:1102::/48,CN,CN-SH,Shanghai,
 2a13:b487:1103::/48,US,US-NV,Las Vegas,
-2a13:b487:1104::/48,HK,CN-HK,Hong Kong,
 2a13:b487:1105::/48,DE,DE-HE,Frankfurt,
 2a13:b487:1106::/48,CN,CN-ZJ,Hangzhou,
 2a13:b487:1107::/48,CN,CN-GD,Shenzhen,
@@ -690,7 +687,7 @@
 2a0f:1cc5:170::/44,JP,JP-13,Tokyo,100-0001
 44.30.131.170/31,JP,JP-13,Tokyo,100-0001
 
-# AS203923 - Hoyoverse Network - Last change: Fri, 19 Jun 2026 09:26:44 GMT
+# AS203923 - Hoyoverse Network - Last change: Wed, 08 Jul 2026 12:20:17 GMT
 2a0f:1cc5:401::/48,HK,,Tsuen Wan,999077
 2a0f:1cc5:402::/48,MO,,Macao,999078
 2a0f:1cc5:403::/48,JP,JP-13,Tokyo,100-0001
@@ -699,6 +696,7 @@
 2a0f:1cc5:406::/48,MY,,Kuala Lumpur,50000
 2a0f:1cc5:407::/48,HK,,Tsuen Wan,999077
 2406:840:9666::/48,MO,,Macao,999078
+141.11.238.0/24,HK,,Tsuen Wan,999077
 
 # AS206069 - Cornseed Limited - Last change: Sun, 05 Jul 2026 08:56:38 GMT
 87.76.198.0/24,JP,JP-13,Tokyo,
@@ -737,7 +735,6 @@
 2a0f:1cc5:f08::/48,NL,NL-NH,Amsterdam,
 2a0f:1cc5:f09::/48,US,US-CA,San Jose,
 2602:f92a:a47d::/48,US,US-CA,Los Angeles,90201
-2406:840:9178::/40,US,US-CA,Los Angeles,90201
 
 # AS213625 - G-HO.ST - Last change: Mon, 01 Jun 2026 06:51:23 GMT
 44.30.15.0/24,US,US-WA,Seattle,
@@ -828,12 +825,16 @@
 2a14:67c3:30::/44,GB,GB-LND,London,
 44.30.164.0/24,TW,TW-TPE,Taipei,
 
+# AS219378 - Sakarin Network - Last change: Tue, 07 Jul 2026 03:59:05 GMT
+2a0f:1cc5:45ff::/48,,,,
+2a0f:1cc5:4500::/45,TW,TW-TPE,Taipei,
+2a0f:1cc5:4508::/46,HK,,Hong Kong,
+
 # AS23347 - ZYC Network LLC - Last change: Mon, 15 Jun 2026 03:43:35 GMT
 2602:814:F000::/46,US,,,
 2602:814:F000::/48,US,US-CA,Los Angeles,
 2602:814:F001::/48,US,US-MO,Kansas City,
 2602:814:F004::/48,CA,CA-ON,Toronto,
-2602:814:F005::/48,AR,AR-DF,Autonomous City of Buenos Aires,
 2602:814:F006::/48,CN,,,
 2602:814:F006::/64,CN,CN-HA,ZhengZhou,
 2602:814:F006:1::/64,CN,CN-BJ,BeiJing,
@@ -995,10 +996,9 @@
 2a0f:5707:fa30::/48,AU,AU-NSW,Sydney,
 2a0f:5707:fafa::/48,DE,DE-HE,Frankfurt,
 
-# AS54286 - Taipei101 Network LLC - Last change: Mon, 06 Jul 2026 06:24:07 GMT
+# AS54286 - Taipei101 Network LLC - Last change: Wed, 08 Jul 2026 19:03:39 GMT
 23.147.120.0/24,US,US-CA,El Segundo,90245
 64.49.28.0/24,US,US-CA,El Segundo,90245
-23.147.120.231/32,MO,MO,Taipa,420
 23.147.120.232/32,KR,KR-11,Seoul,1006
 23.147.120.233/32,SG,SG-01,Downtown Core,18906
 23.147.120.250/32,TW,TW-TTT,Lyudao Township,951002
@@ -1014,7 +1014,6 @@
 2a14:7dc0:531::/48,TW,TW-TTT,Lyudao Township,951005
 2a14:7dc0:532::/48,TW,TW-TTT,Lyudao Township,951005
 2a14:7dc0:533::/48,TW,TW-TTT,Lyudao Township,951005
-216.23.110.0/23,HK,HK-ISL,Lamma Island,999077
 216.23.108.0/23,JP,JP-36,Okuizumo,699-1511
 85.149.216.0/23,JP,JP-36,Okuizumo,699-1511
 85.149.216.0/24,JP,JP-36,Okuizumo,699-1511
