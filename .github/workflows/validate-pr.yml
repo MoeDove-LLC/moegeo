@@ -24,7 +24,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install requests pyyaml
+        run: pip install requests pyyaml pycountry==24.6.1
 
       - name: Get changed files
         id: changed-files
