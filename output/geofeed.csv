@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-07-08T19:10:00.608039+00:00
-# Total prefixes: 1007
+# Generated at: 2026-07-08T19:22:03.556415+00:00
+# Total prefixes: 1006
 
 # AS140227 - HONG KONG COMMUNICATIONS INTERNATIONAL CO., LIMITED - Last change: Mon, 06 Jul 2026 07:01:22 GMT
 177.2.16.0/24,US,US-CA,Los Angeles,
@@ -1053,4 +1053,3 @@
 2a0f:1cc5:290::/44,DE,,Frankfurt,
 2a0f:1cc5:2a0::/44,CA,,Toronto,
 2a0f:1cc5:2b0::/44,NL,,Amsterdam,
-2a12:cb40::/29,UK,,London,
