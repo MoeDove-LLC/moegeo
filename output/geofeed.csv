@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-07-08T19:22:03.556415+00:00
-# Total prefixes: 1006
+# Generated at: 2026-07-09T06:05:43.332419+00:00
+# Total prefixes: 1005
 
 # AS140227 - HONG KONG COMMUNICATIONS INTERNATIONAL CO., LIMITED - Last change: Mon, 06 Jul 2026 07:01:22 GMT
 177.2.16.0/24,US,US-CA,Los Angeles,
@@ -661,12 +661,18 @@
 2a12:cb41:13f0::/44,,,,
 44.32.191.128/28,CN,CN-JL,Antu,
 
-# AS197817 - Nyco Cloud Network - Last change: Sun, 31 May 2026 03:24:12 GMT
+# AS197817 - Nyco Cloud Network - Last change: Thu, 09 Jul 2026 04:23:53 GMT
 2a14:ae00:51::/48,HK,,Hong Kong,
-2a14:ae00:52::/48,US,US-CA,Fremont,
+2a14:ae00:52::/48,CA,CA-QC,Montreal,
 2a14:ae00:53::/48,JP,JP-13,Tokyo,
 2a14:ae00:54::/48,SG,,Singapore,
 2a14:ae00:55::/48,DE,DE-HE,Frankfurt am Main,
+2a14:ae00:56::/48,TW,TW-TPE,Taipei,
+2a14:ae00:57::/48,CN,CN-SH,Shanghai,
+2a0a:d685:1ff::/48,JP,JP-13,Tokyo,
+2a0a:d685:1ff:11::/64,CN,CN-HN,Changsha,
+2a0a:d685:200::/48,TW,TW-TPE,Taipei,
+2a0a:d685:201::/48,JP,JP-13,Tokyo,
 
 # AS200078 - Potat0 Network - Last change: Sun, 01 Feb 2026 06:16:27 GMT
 2a13:b487:1101::/48,CN,CN-SH,Shanghai,
@@ -677,15 +683,6 @@
 2a13:b487:1107::/48,CN,CN-GD,Shenzhen,
 2a13:b487:1109::/48,TW,TW-TPE,Taipei,
 2a13:b487:1110::/48,AU,AU-NSW,Sydney,
-
-# AS203309 - ChocoNet - Last change: Sat, 30 May 2026 04:20:38 GMT
-2a0f:1cc5:110::/44,HK,,Kowloon,999077
-2a0f:1cc5:130::/44,JP,JP-13,Tokyo,100-0001
-2a0f:1cc5:140::/44,HK,,Kowloon,999077
-2a0f:1cc5:150::/44,TW,TW-TPE,Taipei,10060
-2a0f:1cc5:160::/44,NL,NL-NH,Amsterdam,1011AB
-2a0f:1cc5:170::/44,JP,JP-13,Tokyo,100-0001
-44.30.131.170/31,JP,JP-13,Tokyo,100-0001
 
 # AS203923 - Hoyoverse Network - Last change: Wed, 08 Jul 2026 12:20:17 GMT
 2a0f:1cc5:401::/48,HK,,Tsuen Wan,999077
