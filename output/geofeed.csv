@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-07-13T05:33:14.758377+00:00
-# Total prefixes: 1013
+# Generated at: 2026-07-14T04:47:47.387310+00:00
+# Total prefixes: 1031
 
 # AS140227 - HONG KONG COMMUNICATIONS INTERNATIONAL CO., LIMITED - Last change: Mon, 06 Jul 2026 07:01:22 GMT
 177.2.16.0/24,US,US-CA,Los Angeles,
@@ -661,7 +661,7 @@
 2a12:cb41:13f0::/44,,,,
 44.32.191.128/28,CN,CN-JL,Antu,
 
-# AS197817 - Nyco Cloud Network - Last change: Thu, 09 Jul 2026 04:23:53 GMT
+# AS197817 - Nyco Cloud Network - Last change: Mon, 13 Jul 2026 09:44:30 GMT
 2a14:ae00:51::/48,HK,,Hong Kong,
 2a14:ae00:52::/48,CA,CA-QC,Montreal,
 2a14:ae00:53::/48,JP,JP-13,Tokyo,
@@ -669,6 +669,7 @@
 2a14:ae00:55::/48,DE,DE-HE,Frankfurt am Main,
 2a14:ae00:56::/48,TW,TW-TPE,Taipei,
 2a14:ae00:57::/48,CN,CN-SH,Shanghai,
+2a0a:d685:1fe::/48,DE,DE-HE,Frankfurt am Main,
 2a0a:d685:1ff::/48,JP,JP-13,Tokyo,
 2a0a:d685:1ff:11::/64,CN,CN-HN,Changsha,
 2a0a:d685:200::/48,TW,TW-TPE,Taipei,
@@ -693,7 +694,7 @@
 2a0f:1cc5:170::/44,JP,JP-13,Tokyo,100-0001
 44.30.131.170/31,JP,JP-13,Tokyo,100-0001
 
-# AS203923 - Hoyoverse Network - Last change: Wed, 08 Jul 2026 12:20:17 GMT
+# AS203923 - Hoyoverse Network - Last change: Mon, 13 Jul 2026 16:14:31 GMT
 2a0f:1cc5:401::/48,HK,,Tsuen Wan,999077
 2a0f:1cc5:402::/48,MO,,Macao,999078
 2a0f:1cc5:403::/48,JP,JP-13,Tokyo,100-0001
@@ -702,6 +703,7 @@
 2a0f:1cc5:406::/48,MY,,Kuala Lumpur,50000
 2a0f:1cc5:407::/48,HK,,Tsuen Wan,999077
 2406:840:9666::/48,MO,,Macao,999078
+2a0f:1cc5:408::/48,DE,DE-HE,Frankfurt,60311
 141.11.238.0/24,HK,,Tsuen Wan,999077
 
 # AS206069 - Cornseed Limited - Last change: Sun, 05 Jul 2026 08:56:38 GMT
@@ -786,6 +788,9 @@
 2a06:1281:40d0::/44,US,US-CA,San Jose,
 2a06:1281:40e0::/44,HK,,Hong Kong,
 
+# AS214899 - Leland Network - Last change: Tue, 14 Jul 2026 04:47:40 GMT
+44.30.28.0/24,US,US-CA,Los Angeles,
+
 # AS214955 - LaunchPad Network - Last change: Fri, 20 Mar 2026 13:45:04 GMT
 2a0f:1cc5:2d01::/48,CH,,Bern,
 2a0f:1cc5:2d03::/48,CA,CA-QC,Montreal,
@@ -808,16 +813,22 @@
 2a0f:1cc5:1e00::/48,JP,JP-13,Tokyo,113-0033
 2a0f:1cc5:1e01::/48,JP,JP-13,Tokyo,113-0033
 
-# AS215502 - Yxom Network - Last change: Sat, 27 Jun 2026 05:50:20 GMT
+# AS215502 - Yxom Network - Last change: Tue, 14 Jul 2026 04:47:41 GMT
 2a13:aac4:f000::/44,HK,,Central and Western,
 2a13:aac4:f00c::/48,HK,,Central and Western,
-2a13:aac4:f00d::/48,US,US-NV,Las Vegas,89119
 2a06:9f81:4600::/44,TW,TW-TPE,Taipei,
-2a06:9f81:460a::/48,TW,TW-TPE,Taipei,
 2a06:9f81:4610::/44,JP,JP-13,Tokyo,151-0053
 2a06:9f81:4620::/44,DE,DE-HE,Frankfurt,
 2a06:9f81:4640::/44,US,US-NV,Las Vegas,89119
 2a06:9f81:4650::/44,NL,NL-NH,Amsterdam,
+2a0f:6280:1400::/44,TW,TW-TPE,Taipei,
+2a0f:6280:1410::/44,JP,JP-13,Tokyo,151-0053
+2a0f:6280:1420::/44,DE,DE-HE,Frankfurt,
+2a0f:6280:1430::/44,GB,GB-WLV,Wolverhampton,
+2a0f:6280:1440::/44,US,US-NV,Las Vegas,89119
+2a0f:6280:1450::/44,NL,NL-NH,Amsterdam,
+2a0f:6280:1460::/44,HK,,Central and Western,
+2a0f:6280:1470::/44,TW,TW-TPE,Taipei,
 2a0f:6284:4c00::/44,SG,,Singapore,
 2a0f:6284:4c30::/48,KR,KR-11,Seoul,
 2a0f:6284:4c40::/44,TW,TW-TPE,Taipei,
@@ -831,10 +842,23 @@
 2a14:67c3:30::/44,GB,GB-LND,London,
 44.30.164.0/24,TW,TW-TPE,Taipei,
 
-# AS219378 - Sakarin Network - Last change: Tue, 07 Jul 2026 03:59:05 GMT
+# AS215786 - BlueGrass Network - Last change: Mon, 13 Jul 2026 14:13:57 GMT
+44.32.143.0/24,JP,JP-13,Tokyo,
+2a13:a5c7:1888::/48,JP,JP-13,Tokyo,
+
+# AS219332 - Pmman Network - Last change: Mon, 13 Jul 2026 20:47:45 GMT
+2a0a:d685:300::/48,JP,JP-13,Tokyo,
+2a0f:1cc5:4700::/48,JP,JP-13,Tokyo,
+2a0a:d685:302::/48,HK,,Hong Kong,
+2a0f:1cc5:4702::/48,HK,,Hong Kong,
+2a0a:d685:301::/48,CN,,,
+2a0f:1cc5:4701::/48,CN,CN-HN,Changsha,
+
+# AS219378 - Sakarin Network - Last change: Mon, 13 Jul 2026 05:44:30 GMT
 2a0f:1cc5:45ff::/48,,,,
 2a0f:1cc5:4500::/45,TW,TW-TPE,Taipei,
 2a0f:1cc5:4508::/46,HK,,Hong Kong,
+2a0f:1cc5:450c::/47,FR,FR-59,Gravelines,59820
 
 # AS23347 - ZYC Network LLC - Last change: Mon, 15 Jun 2026 03:43:35 GMT
 2602:814:F000::/46,US,,,
