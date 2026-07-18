@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-07-17T05:10:17.544038+00:00
-# Total prefixes: 957
+# Generated at: 2026-07-18T04:45:46.787335+00:00
+# Total prefixes: 967
 
 # AS140227 - HONG KONG COMMUNICATIONS INTERNATIONAL CO., LIMITED - Last change: Tue, 14 Jul 2026 09:26:14 GMT
 177.2.16.0/24,US,US-CA,Los Angeles,
@@ -629,6 +629,18 @@
 2a0f:1cc5:160::/44,NL,NL-NH,Amsterdam,1011AB
 2a0f:1cc5:170::/44,JP,JP-13,Tokyo,100-0001
 44.30.131.170/31,JP,JP-13,Tokyo,100-0001
+
+# AS203923 - Hoyoverse Network - Last change: Mon, 13 Jul 2026 16:14:31 GMT
+2a0f:1cc5:401::/48,HK,,Tsuen Wan,999077
+2a0f:1cc5:402::/48,MO,,Macao,999078
+2a0f:1cc5:403::/48,JP,JP-13,Tokyo,100-0001
+2a0f:1cc5:404::/48,TW,,Tainan,708
+2a0f:1cc5:405::/48,GB,GB-ENG,London,999020
+2a0f:1cc5:406::/48,MY,,Kuala Lumpur,50000
+2a0f:1cc5:407::/48,HK,,Tsuen Wan,999077
+2406:840:9666::/48,MO,,Macao,999078
+2a0f:1cc5:408::/48,DE,DE-HE,Frankfurt,60311
+141.11.238.0/24,HK,,Tsuen Wan,999077
 
 # AS206069 - Cornseed Limited - Last change: Sun, 05 Jul 2026 08:56:38 GMT
 87.76.198.0/24,JP,JP-13,Tokyo,
