@@ -1,0 +1,8 @@
+name: "Chimon Technology Ltd"
+
+asn: "AS202939"
+
+contact: "noc@chimon.org"
+
+geofeed_urls:
+  - "https://resource.net.chimon.org/geofeed.csv"
