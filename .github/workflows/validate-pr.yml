@@ -7,10 +7,7 @@ on:
 
 jobs:
   validate:
-    runs-on:
-      - self-hosted
-      - linux
-      - x64
+    runs-on: ubuntu-latest
     permissions:
       pull-requests: write
       contents: read
