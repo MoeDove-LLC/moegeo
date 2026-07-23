@@ -10,10 +10,7 @@ permissions:
 
 jobs:
   aggregate:
-    runs-on:
-      - self-hosted
-      - linux
-      - x64
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
