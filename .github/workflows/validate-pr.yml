@@ -12,143 +12,277 @@ jobs:
       pull-requests: write
       contents: read
     steps:
-      - name: Checkout PR head
+      - name: Checkout trusted base
+        id: checkout
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: 0
+          ref: ${{ github.event.pull_request.base.sha }}
+          fetch-depth: 1
+          persist-credentials: false
 
       - name: Set up Python
+        id: setup-python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
       - name: Install dependencies
+        id: dependencies
         run: pip install requests pyyaml pycountry==24.6.1
 
-      - name: Get changed files
-        id: changed-files
-        run: |
-          # Fetch base branch for comparison
-          git fetch origin ${{ github.event.pull_request.base.ref }}
-          BASE_SHA=${{ github.event.pull_request.base.sha }}
-          HEAD_SHA=${{ github.event.pull_request.head.sha }}
+      - name: Prepare PR feed files
+        id: prepare
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
 
-          # Categorize changes by type
-          ADDED=$(git diff --name-only --diff-filter=A $BASE_SHA $HEAD_SHA | grep '^feeds/.*\.yml$' || true)
-          MODIFIED=$(git diff --name-only --diff-filter=M $BASE_SHA $HEAD_SHA | grep '^feeds/.*\.yml$' || true)
-          DELETED=$(git diff --name-only --diff-filter=D $BASE_SHA $HEAD_SHA | grep '^feeds/.*\.yml$' || true)
+            const pr = context.payload.pull_request;
+            if (!pr) {
+              core.setFailed('Missing pull request payload.');
+              return;
+            }
 
-          echo "added=$(echo "$ADDED" | tr '\n' ' ')" >> $GITHUB_OUTPUT
-          echo "modified=$(echo "$MODIFIED" | tr '\n' ' ')" >> $GITHUB_OUTPUT
-          echo "deleted=$(echo "$DELETED" | tr '\n' ' ')" >> $GITHUB_OUTPUT
+            // Only direct feed YAML files are materialized into the trusted checkout.
+            // This prevents path traversal and keeps fork-controlled scripts/workflows out.
+            const safeFeedPath = /^feeds\/[A-Za-z0-9][A-Za-z0-9._-]*\.yml$/;
+            const changedFiles = await github.paginate(
+              github.rest.pulls.listFiles,
+              {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: pr.number,
+                per_page: 100,
+              }
+            );
 
-          # All files needing content validation (added + modified)
-          ALL_FILES=$(echo -e "${ADDED}\n${MODIFIED}" | grep -v '^$' | tr '\n' ' ' || true)
-          echo "files=$ALL_FILES" >> $GITHUB_OUTPUT
+            const added = [];
+            const modified = [];
+            const deleted = [];
+            const filesToValidate = [];
+            const filesToDownload = new Set();
 
-      - name: Check Commit Signature and Email
-        id: commit-info
-        run: |
-          PR_HEAD_SHA=${{ github.event.pull_request.head.sha }}
-          API_URL="https://api.github.com/repos/${{ github.repository }}/commits/$PR_HEAD_SHA"
-          RES=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" $API_URL)
-          VERIFIED=$(echo "$RES" | jq -r '.commit.verification.verified // false')
-          COMMIT_EMAIL=$(echo "$RES" | jq -r '.commit.author.email // "null"')
+            const addUnique = (items, value) => {
+              if (value && !items.includes(value)) {
+                items.push(value);
+              }
+            };
 
-          echo "verified=$VERIFIED" >> $GITHUB_OUTPUT
-          echo "email=$COMMIT_EMAIL" >> $GITHUB_OUTPUT
+            for (const file of changedFiles) {
+              const feedPaths = [file.filename, file.previous_filename]
+                .filter(Boolean)
+                .filter((filename) => filename.startsWith('feeds/'));
+
+              for (const filename of feedPaths) {
+                if (!safeFeedPath.test(filename)) {
+                  core.setFailed(`Unsafe or unsupported feed path: ${filename}`);
+                  return;
+                }
+              }
+
+              if (feedPaths.length === 0) {
+                continue;
+              }
+
+              switch (file.status) {
+                case 'added':
+                case 'copied':
+                  addUnique(added, file.filename);
+                  addUnique(filesToValidate, file.filename);
+                  filesToDownload.add(file.filename);
+                  break;
+                case 'modified':
+                case 'changed':
+                  addUnique(modified, file.filename);
+                  addUnique(filesToValidate, file.filename);
+                  filesToDownload.add(file.filename);
+                  break;
+                case 'removed':
+                  addUnique(deleted, file.filename);
+                  break;
+                case 'renamed':
+                  if (!file.previous_filename) {
+                    core.setFailed(`Renamed file is missing previous_filename: ${file.filename}`);
+                    return;
+                  }
+                  addUnique(deleted, file.previous_filename);
+                  addUnique(added, file.filename);
+                  addUnique(filesToValidate, file.filename);
+                  filesToDownload.add(file.filename);
+                  break;
+                default:
+                  core.setFailed(`Unsupported file status '${file.status}' for ${file.filename}`);
+                  return;
+              }
+            }
+
+            const [headOwner, headRepo] = pr.head.repo.full_name.split('/');
+            const workspace = path.resolve(process.env.GITHUB_WORKSPACE);
+            const feedsRoot = path.join(workspace, 'feeds') + path.sep;
+
+            for (const filename of filesToDownload) {
+              const destination = path.resolve(workspace, filename);
+              if (!destination.startsWith(feedsRoot)) {
+                core.setFailed(`Refusing to write outside feeds/: ${filename}`);
+                return;
+              }
+
+              const response = await github.rest.repos.getContent({
+                owner: headOwner,
+                repo: headRepo,
+                path: filename,
+                ref: pr.head.sha,
+              });
+              const content = response.data;
+
+              if (
+                Array.isArray(content) ||
+                content.type !== 'file' ||
+                content.encoding !== 'base64' ||
+                !content.content
+              ) {
+                core.setFailed(`Unable to read regular file content for ${filename}`);
+                return;
+              }
+
+              fs.mkdirSync(path.dirname(destination), { recursive: true });
+              fs.writeFileSync(
+                destination,
+                Buffer.from(content.content.replace(/\n/g, ''), 'base64')
+              );
+            }
+
+            let verified = 'false';
+            let email = 'null';
+            try {
+              const commit = await github.rest.repos.getCommit({
+                owner: headOwner,
+                repo: headRepo,
+                ref: pr.head.sha,
+              });
+              verified = String(commit.data.commit.verification?.verified === true);
+              email = commit.data.commit.author?.email || 'null';
+            } catch (error) {
+              core.warning(`Unable to read PR head commit metadata: ${error.message}`);
+            }
+
+            core.setOutput('added', added.join(' '));
+            core.setOutput('modified', modified.join(' '));
+            core.setOutput('deleted', deleted.join(' '));
+            core.setOutput('files', filesToValidate.join(' '));
+            core.setOutput('verified', verified);
+            core.setOutput('email', email);
 
       - name: Security Check
         id: security
-        if: always()
+        if: always() && steps.prepare.outcome == 'success'
+        env:
+          MODIFIED: ${{ steps.prepare.outputs.modified }}
+          DELETED: ${{ steps.prepare.outputs.deleted }}
+          EMAIL: ${{ steps.prepare.outputs.email }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: |
-          MODIFIED="${{ steps.changed-files.outputs.modified }}"
-          DELETED="${{ steps.changed-files.outputs.deleted }}"
-          EMAIL="${{ steps.commit-info.outputs.email }}"
-          BASE_SHA=${{ github.event.pull_request.base.sha }}
-
-          # Build arguments
-          ARGS="--base-sha $BASE_SHA"
-          if [ -n "$EMAIL" ] && [ "$EMAIL" != "null" ]; then
-            ARGS="$ARGS --author-email $EMAIL"
-          fi
-
+          ARGS=(--base-sha "$BASE_SHA")
           HAS_FILES=false
-          if [ -n "$MODIFIED" ] && [ "$MODIFIED" != " " ]; then
-            ARGS="$ARGS --modified $MODIFIED"
-            HAS_FILES=true
+
+          if [[ -n "$EMAIL" && "$EMAIL" != "null" ]]; then
+            ARGS+=(--author-email "$EMAIL")
           fi
-          if [ -n "$DELETED" ] && [ "$DELETED" != " " ]; then
-            ARGS="$ARGS --deleted $DELETED"
+
+          if [[ -n "$MODIFIED" ]]; then
+            read -r -a MODIFIED_FILES <<< "$MODIFIED"
+            ARGS+=(--modified "${MODIFIED_FILES[@]}")
             HAS_FILES=true
           fi
 
-          if [ "$HAS_FILES" = false ]; then
+          if [[ -n "$DELETED" ]]; then
+            read -r -a DELETED_FILES <<< "$DELETED"
+            ARGS+=(--deleted "${DELETED_FILES[@]}")
+            HAS_FILES=true
+          fi
+
+          if [[ "$HAS_FILES" == false ]]; then
             echo "No modified or deleted files, skipping security check."
-            echo "result=skip" >> $GITHUB_OUTPUT
+            echo "result=skip" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          EXIT_CODE=0
-          OUTPUT=$(python scripts/check_pr_security.py $ARGS 2>&1) || EXIT_CODE=$?
-
-          echo "comment<<EOF" >> $GITHUB_OUTPUT
-          echo "$OUTPUT" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-
-          if [ $EXIT_CODE -ne 0 ]; then
-            echo "result=fail" >> $GITHUB_OUTPUT
+          if OUTPUT=$(python scripts/check_pr_security.py "${ARGS[@]}" 2>&1); then
+            EXIT_CODE=0
           else
-            echo "result=pass" >> $GITHUB_OUTPUT
+            EXIT_CODE=$?
+          fi
+
+          DELIMITER="GH_OUTPUT_$(python -c 'import uuid; print(uuid.uuid4().hex)')"
+          {
+            printf 'comment<<%s\n' "$DELIMITER"
+            printf '%s\n' "$OUTPUT"
+            printf '%s\n' "$DELIMITER"
+          } >> "$GITHUB_OUTPUT"
+
+          if [[ $EXIT_CODE -ne 0 ]]; then
+            echo "result=fail" >> "$GITHUB_OUTPUT"
+          else
+            echo "result=pass" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Run Validation
         id: validation
-        if: always()
+        if: always() && steps.prepare.outcome == 'success'
+        env:
+          FILES: ${{ steps.prepare.outputs.files }}
+          VERIFIED: ${{ steps.prepare.outputs.verified }}
+          EMAIL: ${{ steps.prepare.outputs.email }}
         run: |
-          FILES="${{ steps.changed-files.outputs.files }}"
-          if [ -z "$FILES" ] || [ "$FILES" = " " ]; then
+          if [[ -z "$FILES" ]]; then
             echo "No feed files to validate."
+            echo "result=skip" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          VERIFIED="${{ steps.commit-info.outputs.verified }}"
-          EMAIL="${{ steps.commit-info.outputs.email }}"
-
+          read -r -a FEED_FILES <<< "$FILES"
           ALL_PASSED=true
           COMMENTS=""
 
-          for file in $FILES; do
-            if [ ! -f "$file" ]; then
-                continue
+          for file in "${FEED_FILES[@]}"; do
+            if [[ ! -f "$file" ]]; then
+              printf 'Missing prepared feed file: %s\n' "$file"
+              ALL_PASSED=false
+              continue
             fi
 
             echo "Validating $file..."
-            EXIT_CODE=0
-            OUTPUT=$(python scripts/validate_feed.py "$file" "$EMAIL" "$VERIFIED" 2>&1) || EXIT_CODE=$?
-
-            COMMENTS="${COMMENTS}\n\n### Validation for \`$file\`\n"
-            if [ $EXIT_CODE -eq 0 ]; then
-              COMMENTS="${COMMENTS}✅ **Passed**\n\`\`\`\n${OUTPUT}\n\`\`\`"
+            if OUTPUT=$(python scripts/validate_feed.py "$file" "$EMAIL" "$VERIFIED" 2>&1); then
+              EXIT_CODE=0
             else
-              COMMENTS="${COMMENTS}❌ **Failed**\n\`\`\`\n${OUTPUT}\n\`\`\`"
+              EXIT_CODE=$?
+            fi
+
+            COMMENTS+=$'\n\n'"### Validation for \`$file\`"$'\n'
+            if [[ $EXIT_CODE -eq 0 ]]; then
+              COMMENTS+=$'✅ **Passed**\n```text\n'"$OUTPUT"$'\n```'
+            else
+              COMMENTS+=$'❌ **Failed**\n```text\n'"$OUTPUT"$'\n```'
               ALL_PASSED=false
             fi
           done
 
-          echo "comment<<EOF" >> $GITHUB_OUTPUT
-          echo -e "$COMMENTS" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          DELIMITER="GH_OUTPUT_$(python -c 'import uuid; print(uuid.uuid4().hex)')"
+          {
+            printf 'comment<<%s\n' "$DELIMITER"
+            printf '%s\n' "$COMMENTS"
+            printf '%s\n' "$DELIMITER"
+          } >> "$GITHUB_OUTPUT"
 
-          if [ "$ALL_PASSED" = false ]; then
-            echo "result=fail" >> $GITHUB_OUTPUT
+          if [[ "$ALL_PASSED" == false ]]; then
+            echo "result=fail" >> "$GITHUB_OUTPUT"
           else
-            echo "result=pass" >> $GITHUB_OUTPUT
+            echo "result=pass" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Comment on PR
-        if: always() && (steps.security.outputs.comment != '' || steps.validation.outputs.comment != '')
+        if: always() && steps.prepare.outcome == 'success' && (steps.security.outputs.comment != '' || steps.validation.outputs.comment != '')
         uses: actions/github-script@v7
         env:
           SECURITY_COMMENT: ${{ steps.security.outputs.comment }}
@@ -164,7 +298,7 @@ jobs:
 
             if (security) {
               const icon = securityResult === 'fail' ? '🚨' : '✅';
-              body += `## ${icon} Security Check\n\`\`\`\n${security}\n\`\`\`\n\n`;
+              body += `## ${icon} Security Check\n\`\`\`text\n${security}\n\`\`\`\n\n`;
             }
 
             if (validation) {
@@ -176,22 +310,54 @@ jobs:
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                body: body
+                body,
               });
             }
 
       - name: Fail if checks did not pass
         if: always()
+        env:
+          CHECKOUT_OUTCOME: ${{ steps.checkout.outcome }}
+          SETUP_PYTHON_OUTCOME: ${{ steps.setup-python.outcome }}
+          DEPENDENCIES_OUTCOME: ${{ steps.dependencies.outcome }}
+          PREPARE_OUTCOME: ${{ steps.prepare.outcome }}
+          SECURITY_OUTCOME: ${{ steps.security.outcome }}
+          SECURITY_RESULT: ${{ steps.security.outputs.result }}
+          VALIDATION_OUTCOME: ${{ steps.validation.outcome }}
+          VALIDATION_RESULT: ${{ steps.validation.outputs.result }}
         run: |
-          SECURITY="${{ steps.security.outputs.result }}"
-          VALIDATION="${{ steps.validation.outputs.result }}"
+          FAILED=false
 
-          if [ "$SECURITY" = "fail" ]; then
-            echo "::error::Security check failed!"
-            exit 1
+          if [[ "$CHECKOUT_OUTCOME" != "success" ]]; then
+            echo "::error::Trusted base checkout failed."
+            FAILED=true
           fi
 
-          if [ "$VALIDATION" = "fail" ]; then
-            echo "::error::Validation failed!"
+          if [[ "$SETUP_PYTHON_OUTCOME" != "success" ]]; then
+            echo "::error::Python setup failed."
+            FAILED=true
+          fi
+
+          if [[ "$DEPENDENCIES_OUTCOME" != "success" ]]; then
+            echo "::error::Dependency installation failed."
+            FAILED=true
+          fi
+
+          if [[ "$PREPARE_OUTCOME" != "success" ]]; then
+            echo "::error::Failed to safely prepare PR feed files."
+            FAILED=true
+          fi
+
+          if [[ "$SECURITY_OUTCOME" != "success" || "$SECURITY_RESULT" == "fail" ]]; then
+            echo "::error::Security check failed."
+            FAILED=true
+          fi
+
+          if [[ "$VALIDATION_OUTCOME" != "success" || "$VALIDATION_RESULT" == "fail" ]]; then
+            echo "::error::Validation failed."
+            FAILED=true
+          fi
+
+          if [[ "$FAILED" == true ]]; then
             exit 1
           fi
