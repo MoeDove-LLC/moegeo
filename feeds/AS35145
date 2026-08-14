@@ -6,16 +6,16 @@
 # ============================================================
 
 # 组织名称 / Organization Name
-name: "ZYC Network LLC"
+name: "Nyatwork"
 
 # 自治系统号 / Autonomous System Number
-asn: "AS23347"
+asn: "AS35145"
 
 # 联系邮箱 / Contact Email
-contact: "noc@zyc.name"
+contact: "abuse@nyatwork.net"
 
 # Geofeed URL 列表 / Geofeed URL List
 # 支持多个 URL，每个 URL 应指向一个符合 RFC 8805 标准的 CSV 文件
 # Multiple URLs supported, each should point to an RFC 8805 compliant CSV file
 geofeed_urls:
-  - "https://res.zyc.name/geofeed.csv"
+  - "http://5.181.226.1/geofeed.csv"
