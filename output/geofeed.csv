@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-08-14T04:03:06.307693+00:00
-# Total prefixes: 1043
+# Generated at: 2026-08-15T02:47:17.264276+00:00
+# Total prefixes: 1046
 
 # AS135671 - RBB InfoTech - Last change: Fri, 17 Jul 2026 06:18:14 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -869,14 +869,15 @@
 2a0a:d685:301::/48,CN,,,
 2a0f:1cc5:4701::/48,CN,,,
 
-# AS219378 - Sakarin Network - Last change: Wed, 12 Aug 2026 07:48:40 GMT
-2a0f:1cc5:45ff::/48,,,,
-2a0f:1cc5:4500::/45,CN,CN-SH,Shanghai,200000
+# AS219378 - Sakarin Network - Last change: Fri, 14 Aug 2026 13:04:48 GMT
+2a0f:1cc5:4500::/45,CN,CN-SH,Shanghai,
 2a0f:1cc5:4508::/46,HK,,Hong Kong,
-2a0f:1cc5:450c::/47,FR,FR-59,Gravelines,59820
+2a0f:1cc5:450c::/47,FR,FR-59,Gravelines,
 2a0f:1cc5:450e::/48,MO,,Macao,
 2a0f:1cc5:4510::/46,JP,JP-13,Tokyo,
-2a0f:1cc5:4514::/46,JP,JP-13,Shinagawa,140-0002
+2a0f:1cc5:4514::/46,JP,JP-13,Shinagawa,
+2a0f:1cc5:45ff::/48,,,,
+2a0e:4005:ff20::/48,SG,SG-01,Singapore,
 
 # AS23347 - ZYC Network LLC - Last change: Mon, 15 Jun 2026 03:43:35 GMT
 2602:814:F000::/46,US,,,
@@ -898,6 +899,10 @@
 2602:814:F014::/48,AU,AU-VIC,Melbourne,
 2602:814:F015::/48,SG,SG-01,Singapore,
 2602:F921:E00::/44,PH,PH-00,Manila,
+
+# AS35145 - Nyatwork - Last change: Fri, 14 Aug 2026 11:43:12 GMT
+5.181.226.0/24,HK,,Hong Kong,
+2a0e:800::/29,HK,,Hong Kong,
 
 # AS402333 - Tianshome Network Services - Last change: Mon, 08 Jun 2026 06:39:23 GMT
 2001:678:1184:8500::/56,HK,,Hong Kong (Chek Lap Kok),
