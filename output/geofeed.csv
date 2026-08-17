@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-08-16T02:55:08.251174+00:00
-# Total prefixes: 1046
+# Generated at: 2026-08-17T02:55:17.152167+00:00
+# Total prefixes: 1040
 
 # AS135671 - RBB InfoTech - Last change: Fri, 17 Jul 2026 06:18:14 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -682,15 +682,6 @@
 44.30.151.0/24,TW,TW-TPE,Taipei,
 44.30.151.0/26,TW,TW-TPE,Taipei,
 
-# AS203309 - ChocoNet - Last change: Sat, 30 May 2026 04:20:38 GMT
-2a0f:1cc5:110::/44,HK,,Kowloon,999077
-2a0f:1cc5:130::/44,JP,JP-13,Tokyo,100-0001
-2a0f:1cc5:140::/44,HK,,Kowloon,999077
-2a0f:1cc5:150::/44,TW,TW-TPE,Taipei,10060
-2a0f:1cc5:160::/44,NL,NL-NH,Amsterdam,1011AB
-2a0f:1cc5:170::/44,JP,JP-13,Tokyo,100-0001
-44.30.131.170/31,JP,JP-13,Tokyo,100-0001
-
 # AS203923 - Hoyoverse Network - Last change: Mon, 13 Jul 2026 16:14:31 GMT
 2a0f:1cc5:401::/48,HK,,Tsuen Wan,999077
 2a0f:1cc5:402::/48,MO,,Macao,999078
@@ -869,15 +860,16 @@
 2a0a:d685:301::/48,CN,,,
 2a0f:1cc5:4701::/48,CN,,,
 
-# AS219378 - Sakarin Network - Last change: Fri, 14 Aug 2026 13:04:48 GMT
+# AS219378 - Sakarin Network - Last change: Sun, 16 Aug 2026 09:02:29 GMT
+2a0e:4005:ff20::/48,SG,SG-01,Singapore,
 2a0f:1cc5:4500::/45,CN,CN-SH,Shanghai,
 2a0f:1cc5:4508::/46,HK,,Hong Kong,
 2a0f:1cc5:450c::/47,FR,FR-59,Gravelines,
 2a0f:1cc5:450e::/48,MO,,Macao,
+2a0f:1cc5:450f::/48,JP,JP-13,Tokyo,
 2a0f:1cc5:4510::/46,JP,JP-13,Tokyo,
 2a0f:1cc5:4514::/46,JP,JP-13,Shinagawa,
 2a0f:1cc5:45ff::/48,,,,
-2a0e:4005:ff20::/48,SG,SG-01,Singapore,
 
 # AS23347 - ZYC Network LLC - Last change: Mon, 15 Jun 2026 03:43:35 GMT
 2602:814:F000::/46,US,,,
