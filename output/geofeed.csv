@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-08-20T02:52:13.929532+00:00
-# Total prefixes: 1040
+# Generated at: 2026-08-21T02:57:58.085669+00:00
+# Total prefixes: 1042
 
 # AS135671 - RBB InfoTech - Last change: Fri, 17 Jul 2026 06:18:14 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -682,7 +682,7 @@
 44.30.151.0/24,TW,TW-TPE,Taipei,
 44.30.151.0/26,TW,TW-TPE,Taipei,
 
-# AS203923 - Hoyoverse Network - Last change: Mon, 13 Jul 2026 16:14:31 GMT
+# AS203923 - Hoyoverse Network - Last change: Thu, 20 Aug 2026 14:04:30 GMT
 2a0f:1cc5:401::/48,HK,,Tsuen Wan,999077
 2a0f:1cc5:402::/48,MO,,Macao,999078
 2a0f:1cc5:403::/48,JP,JP-13,Tokyo,100-0001
@@ -692,6 +692,7 @@
 2a0f:1cc5:407::/48,HK,,Tsuen Wan,999077
 2406:840:9666::/48,MO,,Macao,999078
 2a0f:1cc5:408::/48,DE,DE-HE,Frankfurt,60311
+2406:840:9661::/48,SG,,Singapore,018989
 141.11.238.0/24,HK,,Tsuen Wan,999077
 
 # AS206069 - Cornseed Limited - Last change: Sun, 05 Jul 2026 08:56:38 GMT
@@ -746,9 +747,10 @@
 # AS213625 - G-HO.ST - Last change: Mon, 01 Jun 2026 06:51:23 GMT
 44.30.15.0/24,US,US-WA,Seattle,
 
-# AS213876 - LangYa Network - Last change: Fri, 24 Jul 2026 05:17:02 GMT
+# AS213876 - LangYa Network - Last change: Fri, 21 Aug 2026 02:57:48 GMT
 2a0f:1cc5:2000::/44,DE,DE-BY,Nuremberg,
 2602:f92a:a462::/48,HK,,Hong Kong,
+2a0f:1cc5:2010::/44,HK,,Hong Kong,
 
 # AS214731 - ETO Networks Limited - Last change: Sat, 23 May 2026 05:36:48 GMT
 2a01:e281:ad00::/43,US,US-NV,Las Vegas,
