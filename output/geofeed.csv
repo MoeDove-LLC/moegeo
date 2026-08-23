@@ -1,5 +1,5 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-08-22T02:50:02.348332+00:00
+# Generated at: 2026-08-23T02:57:35.148848+00:00
 # Total prefixes: 1046
 
 # AS135671 - RBB InfoTech - Last change: Fri, 17 Jul 2026 06:18:14 GMT
@@ -864,7 +864,7 @@
 2a0a:d685:301::/48,CN,,,
 2a0f:1cc5:4701::/48,CN,,,
 
-# AS219378 - Sakarin Network - Last change: Fri, 21 Aug 2026 14:49:22 GMT
+# AS219378 - Sakarin Network - Last change: Sat, 22 Aug 2026 04:18:05 GMT
 2a0e:4005:ff20::/48,SG,SG-01,Singapore,
 2a0e:4005:ffdd::/48,HK,,Hong Kong,
 2a0f:1cc5:4500::/45,CN,CN-SH,Shanghai,
@@ -874,7 +874,7 @@
 2a0f:1cc5:450f::/48,JP,JP-13,Tokyo,
 2a0f:1cc5:4510::/46,JP,JP-13,Tokyo,
 2a0f:1cc5:4514::/46,JP,JP-13,Shinagawa,
-2a0f:1cc5:451b::/48,JP,JP-13,Shinagawa,
+2a0f:1cc5:451c::/46,TW,TW-TPE,Taipei,
 2a0f:1cc5:45ff::/48,,,,
 
 # AS23347 - ZYC Network LLC - Last change: Mon, 15 Jun 2026 03:43:35 GMT
