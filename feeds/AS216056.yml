@@ -1,0 +1,16 @@
+# ============================================================
+#  Geofeed 提交模板 / Geofeed Submission
+# ============================================================
+
+# 组织名称 / Organization Name
+name: "XaVen Network"
+
+# 自治系统号 / Autonomous System Number
+asn: "AS216056"
+
+# 联系邮箱 / Contact Email
+contact: "jasonxu114514@163.com"
+
+# Geofeed URL 列表 / Geofeed URL List
+geofeed_urls:
+  - "http://www.xaven.net/geofeed.csv"
