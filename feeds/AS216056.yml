@@ -13,4 +13,4 @@ contact: "jasonxu114514@163.com"
 
 # Geofeed URL 列表 / Geofeed URL List
 geofeed_urls:
-  - "http://www.xaven.net/geofeed.csv"
+  - "https://www.xaven.net/geofeed.csv"
