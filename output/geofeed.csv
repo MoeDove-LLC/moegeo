@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-09-08T06:51:08.710948+00:00
-# Total prefixes: 1098
+# Generated at: 2026-09-09T07:00:09.758160+00:00
+# Total prefixes: 1100
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -740,7 +740,7 @@
 2a01:e281:a400::/48,CN,CN-HB,Wuhan,
 2a01:e281:a410::/44,JP,JP-13,Tokyo,
 
-# AS210352 - ZeroWolf Network - Last change: Mon, 10 Aug 2026 08:27:43 GMT
+# AS210352 - ZeroWolf Network - Last change: Tue, 08 Sep 2026 14:55:44 GMT
 2a0f:1cc5:f00::/48,TW,TW-TPE,Taipei,
 2a0f:1cc5:f01::/48,HK,,Hong Kong,
 2a0f:1cc5:f02::/48,JP,JP-13,Tokyo,
@@ -751,6 +751,7 @@
 2a0f:1cc5:f07::/48,JP,JP-13,Tokyo,
 2a0f:1cc5:f08::/48,AU,AU-VIC,Melbourne,
 2a0f:1cc5:f09::/48,US,US-CA,San Jose,
+2a0f:1cc5:f10::/48,ZA,ZA-GP,Johannesburg,
 2602:f92a:a47d::/48,US,US-CA,Los Angeles,90201
 
 # AS211585 - Maiyun Network - Last change: Wed, 02 Sep 2026 06:44:37 GMT
@@ -784,9 +785,10 @@
 # AS213625 - G-HO.ST - Last change: Mon, 01 Jun 2026 06:51:23 GMT
 44.30.15.0/24,US,US-WA,Seattle,
 
-# AS213876 - LangYa Network - Last change: Sat, 05 Sep 2026 06:37:07 GMT
+# AS213876 - LangYa Network - Last change: Wed, 09 Sep 2026 06:59:59 GMT
 2a0f:1cc5:2000::/44,DE,DE-BY,Nuremberg,
-2a0f:1cc5:2020::/44,GB,GB-LND,London,
+2a0f:1cc5:2020::/44,HK,,Hong Kong,
+2a0f:1cc5:2030::/44,GB,GB-LND,London,
 2602:f92a:a462::/48,HK,,Hong Kong,
 2a0f:1cc5:2010::/44,HK,,Hong Kong,
 
