@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-09-12T06:47:57.234211+00:00
-# Total prefixes: 1352
+# Generated at: 2026-09-13T07:06:00.161139+00:00
+# Total prefixes: 1354
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -745,7 +745,7 @@
 2a01:e281:a400::/48,CN,CN-HB,Wuhan,
 2a01:e281:a410::/44,JP,JP-13,Tokyo,
 
-# AS210352 - ZeroWolf Network - Last change: Tue, 08 Sep 2026 14:55:44 GMT
+# AS210352 - ZeroWolf Network - Last change: Sat, 12 Sep 2026 14:44:04 GMT
 2a0f:1cc5:f00::/48,TW,TW-TPE,Taipei,
 2a0f:1cc5:f01::/48,HK,,Hong Kong,
 2a0f:1cc5:f02::/48,JP,JP-13,Tokyo,
@@ -757,6 +757,7 @@
 2a0f:1cc5:f08::/48,AU,AU-VIC,Melbourne,
 2a0f:1cc5:f09::/48,US,US-CA,San Jose,
 2a0f:1cc5:f10::/48,ZA,ZA-GP,Johannesburg,
+2a0f:1cc5:f11::/48,GB,GB-ENG,Kent,
 2602:f92a:a47d::/48,US,US-CA,Los Angeles,90201
 
 # AS211585 - Maiyun Network - Last change: Wed, 02 Sep 2026 06:44:37 GMT
@@ -927,7 +928,8 @@
 2a0a:d685:301::/48,CN,,,
 2a0f:1cc5:4701::/48,CN,,,
 
-# AS219378 - Sakarin Network - Last change: Sun, 06 Sep 2026 11:13:39 GMT
+# AS219378 - Sakarin Network - Last change: Sat, 12 Sep 2026 12:11:06 GMT
+2602:f92a:1310::/48,JP,JP-13,Tokyo,
 2a0e:4005:ff20::/48,SG,SG-01,Singapore,
 2a0e:4005:ffdd::/48,HK,,Hong Kong,
 2a0f:1cc5:4500::/45,CN,CN-SH,Shanghai,
