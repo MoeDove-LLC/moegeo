@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-09-14T07:29:17.485884+00:00
-# Total prefixes: 1354
+# Generated at: 2026-09-15T07:06:17.276982+00:00
+# Total prefixes: 1355
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -717,7 +717,7 @@
 2406:840:9661::/48,SG,,Singapore,018989
 141.11.238.0/24,HK,,Tsuen Wan,999077
 
-# AS206069 - Cornseed Limited - Last change: Sat, 12 Sep 2026 06:38:44 GMT
+# AS206069 - Cornseed Limited - Last change: Mon, 14 Sep 2026 12:32:56 GMT
 87.76.198.0/24,JP,JP-13,Tokyo,
 82.22.26.0/24,JP,JP-13,Tokyo,
 82.29.38.0/24,JP,JP-13,Tokyo,
@@ -725,7 +725,8 @@
 87.86.87.0/24,JP,JP-13,Tokyo,
 87.86.22.0/24,JP,JP-13,Tokyo,
 16.5.55.0/24,JP,JP-13,Tokyo,
-87.86.0.0/22,US,US-CA,Los Angeles,
+87.86.0.0/22,GB,GB-LND,London,
+77.67.18.0/24,JP,JP-13,Tokyo,
 2a14:7586:6109::/48,JP,JP-13,Tokyo,
 2a14:7586:6111::/48,JP,JP-13,Tokyo,
 2a14:7586:6112::/48,JP,JP-13,Tokyo,
