@@ -1,5 +1,5 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-09-15T07:06:17.276982+00:00
+# Generated at: 2026-09-16T07:07:03.754630+00:00
 # Total prefixes: 1355
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
@@ -945,7 +945,7 @@
 2a0f:1cc5:4520::/45,NL,NL-NH,Amsterdam,
 2a0f:1cc5:45ff::/48,,,,
 
-# AS23347 - ZYC Network LLC - Last change: Fri, 11 Sep 2026 15:22:17 GMT
+# AS23347 - ZYC Network LLC - Last change: Tue, 15 Sep 2026 15:26:03 GMT
 2602:814:F000::/46,US,,,
 2602:814:F000::/48,US,US-CA,Los Angeles,
 2602:814:F001::/48,US,US-MO,Kansas City,
@@ -964,6 +964,7 @@
 2602:814:F010::/46,NL,NL-NH,Amsterdam,
 2602:814:F014::/48,AU,AU-VIC,Melbourne,
 2602:814:F015::/48,SG,SG-01,Singapore,
+2602:814:f016::/48,IE,IE-L,Dublin,
 2602:814:f018::/46,GB,GB-LND,London,
 2602:F921:E00::/44,PH,PH-00,Manila,
 2602:814:fc00::/46,AD,,,
@@ -1393,13 +1394,12 @@
 2602:faa8:800::/44,JP,JP-36,Okuizumo,699-1511
 2602:faa8:659::/48,JP,JP-36,Okuizumo,699-1511
 
-# AS62711 - Maxwell Telecom LLC - Last change: Sat, 05 Sep 2026 06:54:57 GMT
+# AS62711 - Maxwell Telecom LLC - Last change: Tue, 15 Sep 2026 15:17:09 GMT
 23.175.200.0/24,US,US-CA,Los Angeles,
 23.175.201.0/24,HK,,Hong Kong,
 2602:F921::/44,US,,,
 2602:f921:4::/46,US,US-MO,Kansas City,
 2602:F921:E00::/48,PH,PH-00,Manila,
-2602:f921:700::/48,SG,SG-01,Singapore,
 
 # AS204921 - YunZheng LAB - Last change: Wed, 02 Sep 2026 06:44:49 GMT
 177.177.81.0/24,HK,,Kwai Chung,
