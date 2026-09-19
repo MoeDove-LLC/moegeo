@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-09-18T06:58:38.177670+00:00
-# Total prefixes: 1428
+# Generated at: 2026-09-19T06:57:35.461620+00:00
+# Total prefixes: 1424
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -681,16 +681,6 @@
 38.47.254.0/24,US,US-CA,Los Angeles,
 38.47.255.0/24,US,US-CA,Los Angeles,
 
-# AS140682 - MCdawanjia Network - Last change: Fri, 24 Jul 2026 04:29:11 GMT
-2406:840:9963::/48,US,US-CA,Los Angeles,
-2406:840:9962::/48,HK,,Hong Kong,
-2406:840:9961::/48,CN,CN-GD,Guangzhou,
-2406:840:9964::/48,TW,TW-TPE,Taipei,
-2406:840:9965::/48,JP,JP-13,Tokyo,
-2406:840:996c::/48,TW,TW-TPE,Taipei,
-2406:840:9966::/48,TW,TW-TPE,Taipei,
-2406:840:9967::/48,DE,DE-BE,Berlin,
-
 # AS150184 - OwONetwork - Last change: Tue, 02 Jun 2026 12:58:03 GMT
 2406:840:e301::/48,HK,,Hong Kong,
 2406:840:e302::/48,HK,,Hong Kong,
@@ -980,6 +970,13 @@
 2a07:54c1:2205::/48,HK,,,
 2a07:54c1:2200::/48,US,,,
 
+# AS218796 - GREYWIND Network - Last change: Sat, 19 Sep 2026 05:40:49 GMT
+2a0f:1cc5:57fc::/48,JP,JP-13,Tokyo,
+2a0f:1cc5:57fd::/48,HK,,Hong Kong,
+2a0f:1cc5:57fe::/48,US,US-CA,Los Angeles,
+2a0f:1cc5:57ff::/48,GB,GB-LND,London,
+2406:840:9110::/48,HK,,Hong Kong,
+
 # AS218883 - Melspectrum Technology Co., Ltd. - Last change: Mon, 07 Sep 2026 03:48:21 GMT
 2602:f92a:a463:400::/56,US,US-CA,Los Angeles,
 2602:f92a:a463:ff00::/64,US,US-UT,Salt Lake City,
@@ -1001,7 +998,7 @@
 2a0a:d685:301::/48,CN,,,
 2a0f:1cc5:4701::/48,CN,,,
 
-# AS219378 - Sakarin Network - Last change: Thu, 17 Sep 2026 17:21:29 GMT
+# AS219378 - Sakarin Network - Last change: Sat, 19 Sep 2026 05:22:10 GMT
 2602:f92a:1310::/48,JP,JP-13,Tokyo,
 2a0e:4005:ff20::/48,SG,SG-01,Singapore,
 2a0e:4005:ffdd::/48,HK,,Hong Kong,
@@ -1014,7 +1011,6 @@
 2a0f:1cc5:4514::/46,JP,JP-13,Shinagawa,
 2a0f:1cc5:4518::/46,GB,GB-ENG,London,
 2a0f:1cc5:451c::/46,TW,TW-TPE,Taipei,
-2a0f:1cc5:4520::/45,NL,NL-NH,Amsterdam,
 2a0f:1cc5:4560::/44,TW,TW-TPE,Taipei,
 2a0f:1cc5:45ff::/48,,,,
 
