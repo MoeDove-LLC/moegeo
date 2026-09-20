@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-09-19T06:57:35.461620+00:00
-# Total prefixes: 1424
+# Generated at: 2026-09-20T07:22:48.789671+00:00
+# Total prefixes: 1425
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -970,12 +970,13 @@
 2a07:54c1:2205::/48,HK,,,
 2a07:54c1:2200::/48,US,,,
 
-# AS218796 - GREYWIND Network - Last change: Sat, 19 Sep 2026 05:40:49 GMT
+# AS218796 - GREYWIND Network - Last change: Sun, 20 Sep 2026 04:19:20 GMT
 2a0f:1cc5:57fc::/48,JP,JP-13,Tokyo,
 2a0f:1cc5:57fd::/48,HK,,Hong Kong,
 2a0f:1cc5:57fe::/48,US,US-CA,Los Angeles,
 2a0f:1cc5:57ff::/48,GB,GB-LND,London,
 2406:840:9110::/48,HK,,Hong Kong,
+2406:840:9111::/48,JP,JP-13,Shinagawa,
 
 # AS218883 - Melspectrum Technology Co., Ltd. - Last change: Mon, 07 Sep 2026 03:48:21 GMT
 2602:f92a:a463:400::/56,US,US-CA,Los Angeles,
