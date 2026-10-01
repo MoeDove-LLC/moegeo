@@ -1,0 +1,5 @@
+name: "Kevin Tan Networks"
+asn: "AS204535"
+contact: "noc@kevin.moe"
+geofeed_urls:
+  - "https://raw.githubusercontent.com/Kevin-Tan-Networks/geofeed/refs/heads/main/geofeed.csv"
