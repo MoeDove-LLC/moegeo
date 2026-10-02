@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-10-01T08:12:54.065823+00:00
-# Total prefixes: 1412
+# Generated at: 2026-10-02T07:52:29.490160+00:00
+# Total prefixes: 1422
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -749,7 +749,7 @@
 2a0a:6040:300::/40,DE,DE-HE,Frankfurt am Main,
 2a0a:6040:e300::/40,AU,AU-NSW,Sydney,
 
-# AS203923 - Hoyoverse Network - Last change: Sat, 05 Sep 2026 07:48:47 GMT
+# AS203923 - Hoyoverse Network - Last change: Thu, 01 Oct 2026 10:18:35 GMT
 2a0f:1cc5:401::/48,HK,,Tsuen Wan,999077
 2a0f:1cc5:402::/48,MO,,Macao,999078
 2a0f:1cc5:403::/48,JP,JP-13,Tokyo,100-0001
@@ -762,6 +762,18 @@
 2406:840:9666::/48,MO,,Macao,999078
 2406:840:9661::/48,SG,,Singapore,018989
 141.11.238.0/24,HK,,Tsuen Wan,999077
+141.11.193.0/24,HK,,Tsuen Wan,999077
+
+# AS204535 - Kevin Tan Networks - Last change: Fri, 02 Oct 2026 07:52:15 GMT
+2a0f:1cc6:bab1::/48,MY,MY-14,Kuala Lumpur,
+2a0f:1cc6:bab2::/48,SG,,Singapore,
+2a0f:1cc6:bab3::/48,SG,,Singapore,
+2a0f:1cc6:bab4::/48,HK,,Hong Kong,
+2a0f:1cc6:bab5::/48,DE,,Germany,
+2a0f:1cc6:bab6::/48,US,,United States,
+2a0f:1cc6:bab7::/48,DE,,Germany,
+2a0f:1cc6:bab8::/48,HK,,Hong Kong,
+89.23.82.0/24,MY,MY-14,Kuala Lumpur,
 
 # AS206069 - Cornseed Limited - Last change: Mon, 14 Sep 2026 12:32:56 GMT
 87.76.198.0/24,JP,JP-13,Tokyo,
