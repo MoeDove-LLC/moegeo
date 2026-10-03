@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-10-02T07:52:29.490160+00:00
-# Total prefixes: 1422
+# Generated at: 2026-10-03T07:29:53.534681+00:00
+# Total prefixes: 1409
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -20,16 +20,20 @@
 2a14:67c3:caf0::/44,US,US-MO,Kansas City,
 2a14:67c3:cafe::/48,SG,,Singapore,
 
-# AS140227 - HONG KONG COMMUNICATIONS INTERNATIONAL CO., LIMITED - Last change: Wed, 30 Sep 2026 01:51:56 GMT
+# AS140227 - HONG KONG COMMUNICATIONS INTERNATIONAL CO., LIMITED - Last change: Sat, 03 Oct 2026 04:57:09 GMT
 187.126.64.0/20,US,US-CA,Los Angeles,
 201.15.160.0/20,US,US-CA,Los Angeles,
 200.97.32.0/20,US,US-CA,Los Angeles,
 200.217.96.0/20,US,US-CA,Los Angeles,
 177.2.16.0/20,US,US-CA,Los Angeles,
+177.2.16.0/22,US,US-CA,Los Angeles,
+177.2.28.0/22,US,US-CA,Los Angeles,
 177.2.176.0/21,US,US-CA,Los Angeles,
 177.3.32.0/20,US,US-CA,Los Angeles,
 177.3.80.0/21,US,US-CA,Los Angeles,
 177.5.48.0/20,US,US-CA,Los Angeles,
+177.5.48.0/22,US,US-CA,Los Angeles,
+177.5.60.0/22,US,US-CA,Los Angeles,
 177.7.128.0/20,US,US-CA,Los Angeles,
 187.126.64.0/24,US,US-CA,Los Angeles,
 187.126.65.0/24,US,US-CA,Los Angeles,
@@ -99,10 +103,6 @@
 177.2.17.0/24,US,US-CA,Los Angeles,
 177.2.18.0/24,US,US-CA,Los Angeles,
 177.2.19.0/24,US,US-CA,Los Angeles,
-177.2.24.0/24,US,US-CA,Los Angeles,
-177.2.25.0/24,US,US-CA,Los Angeles,
-177.2.26.0/24,US,US-CA,Los Angeles,
-177.2.27.0/24,US,US-CA,Los Angeles,
 177.2.28.0/24,US,US-CA,Los Angeles,
 177.2.29.0/24,US,US-CA,Los Angeles,
 177.2.30.0/24,US,US-CA,Los Angeles,
@@ -143,11 +143,6 @@
 177.5.49.0/24,US,US-CA,Los Angeles,
 177.5.50.0/24,US,US-CA,Los Angeles,
 177.5.51.0/24,US,US-CA,Los Angeles,
-177.5.56.0/21,US,US-CA,Los Angeles,
-177.5.56.0/24,US,US-CA,Los Angeles,
-177.5.57.0/24,US,US-CA,Los Angeles,
-177.5.58.0/24,US,US-CA,Los Angeles,
-177.5.59.0/24,US,US-CA,Los Angeles,
 177.5.60.0/24,US,US-CA,Los Angeles,
 177.5.61.0/24,US,US-CA,Los Angeles,
 177.5.62.0/24,US,US-CA,Los Angeles,
@@ -579,15 +574,6 @@
 103.127.242.0/24,JP,JP-13,Tokyo,
 103.127.243.0/24,JP,JP-13,Tokyo,
 172.81.96.0/22,JP,JP-13,Tokyo,
-207.56.224.0/21,JP,JP-13,Tokyo,
-207.56.224.0/24,JP,JP-13,Tokyo,
-207.56.225.0/24,JP,JP-13,Tokyo,
-207.56.226.0/24,JP,JP-13,Tokyo,
-207.56.227.0/24,JP,JP-13,Tokyo,
-207.56.228.0/24,JP,JP-13,Tokyo,
-207.56.229.0/24,JP,JP-13,Tokyo,
-207.56.230.0/24,JP,JP-13,Tokyo,
-207.56.231.0/24,JP,JP-13,Tokyo,
 142.248.136.0/24,JP,JP-13,Tokyo,
 142.248.137.0/24,JP,JP-13,Tokyo,
 142.248.138.0/24,JP,JP-13,Tokyo,
@@ -804,7 +790,7 @@
 2a01:e281:a400::/48,CN,CN-HB,Wuhan,
 2a01:e281:a410::/44,JP,JP-13,Tokyo,
 
-# AS210352 - ZeroWolf Network - Last change: Sat, 12 Sep 2026 14:44:04 GMT
+# AS210352 - ZeroWolf Network - Last change: Fri, 02 Oct 2026 17:58:16 GMT
 2a0f:1cc5:f00::/48,TW,TW-TPE,Taipei,
 2a0f:1cc5:f01::/48,HK,,Hong Kong,
 2a0f:1cc5:f02::/48,JP,JP-13,Tokyo,
@@ -817,7 +803,8 @@
 2a0f:1cc5:f09::/48,US,US-CA,San Jose,
 2a0f:1cc5:f10::/48,ZA,ZA-GP,Johannesburg,
 2a0f:1cc5:f11::/48,GB,GB-ENG,Kent,
-2602:f92a:a47d::/48,US,US-CA,Los Angeles,90201
+2602:f92a:a47d::/48,TW,TW-TPE,Taipei,
+2406:840:9178::/48,TW,TW-TPE,Taipei,
 
 # AS211585 - Maiyun Network - Last change: Wed, 02 Sep 2026 06:44:37 GMT
 44.30.70.0/24,US,US-PA,Pittsburgh,
