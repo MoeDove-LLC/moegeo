@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-10-03T07:29:53.534681+00:00
-# Total prefixes: 1409
+# Generated at: 2026-10-04T07:42:02.465044+00:00
+# Total prefixes: 1416
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -954,6 +954,15 @@
 2a07:54c1:2204::/48,CN,,,
 2a07:54c1:2205::/48,HK,,,
 2a07:54c1:2200::/48,US,,,
+
+# AS218538 - Argsment Limited - Last change: Sun, 04 Oct 2026 02:28:47 GMT
+46.232.237.0/24,JP,JP-26,Nagaokakyō,
+2a0f:1cc5:6000::/48,GB,GB-ENG,Winchester,
+2a0f:1cc5:6001::/48,HK,,Victoria City,
+2a0f:1cc5:6002::/48,DE,DE-HE,Rüsselsheim am Main,
+2a0f:1cc5:6003::/48,JP,JP-26,Nagaokakyō,
+2a0f:1cc5:6004::/48,JP,JP-26,Nagaokakyō,
+2a0f:1cc5:6005::/48,TW,TW-HSZ,Hsinchu,
 
 # AS218796 - GREYWIND Network - Last change: Sun, 20 Sep 2026 04:19:20 GMT
 2a0f:1cc5:57fc::/48,JP,JP-13,Tokyo,
