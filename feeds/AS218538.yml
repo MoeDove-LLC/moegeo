@@ -1,0 +1,5 @@
+name: "Argsment Limited"
+asn: "AS218538"
+contact: "admin@argsment.com"
+geofeed_urls:
+  - "https://noc.argsment.com/geofeed.csv"
