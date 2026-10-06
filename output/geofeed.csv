@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-10-05T08:10:30.496010+00:00
-# Total prefixes: 1435
+# Generated at: 2026-10-06T08:28:52.768590+00:00
+# Total prefixes: 1441
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -974,15 +974,17 @@
 2a0f:1cc5:6004::/48,JP,JP-26,Nagaokakyō,
 2a0f:1cc5:6005::/48,TW,TW-HSZ,Hsinchu,
 
-# AS218796 - GREYWIND Network - Last change: Sun, 20 Sep 2026 04:19:20 GMT
+# AS218796 - GREYWIND Network - Last change: Tue, 06 Oct 2026 04:53:09 GMT
+2a0f:1cc5:57fb::/48,TW,TW-TPE,Taipei,
 2a0f:1cc5:57fc::/48,JP,JP-13,Tokyo,
 2a0f:1cc5:57fd::/48,HK,,Hong Kong,
 2a0f:1cc5:57fe::/48,US,US-CA,Los Angeles,
 2a0f:1cc5:57ff::/48,GB,GB-LND,London,
 2406:840:9110::/48,HK,,Hong Kong,
 2406:840:9111::/48,JP,JP-13,Shinagawa,
+2406:840:9112::/48,TW,TW-TPE,Taipei,
 
-# AS218883 - Melspectrum Technology Co., Ltd. - Last change: Mon, 05 Oct 2026 04:57:29 GMT
+# AS218883 - Melspectrum Technology Co., Ltd. - Last change: Mon, 05 Oct 2026 12:08:28 GMT
 2602:f92a:a463::/48,,,,
 2602:f92a:a463:400::80/128,US,US-CA,Los Angeles,
 2602:f92a:a463:700::1/128,US,US-CA,Los Angeles,
@@ -993,8 +995,12 @@
 2a0e:4001:3018:100::/64,US,US-CA,Los Angeles,
 2a0e:4001:3018:fffe::/64,US,US-CA,Los Angeles,
 2a0e:4001:3020::/44,HK,,Hong Kong,
+2a0e:4001:3028:100::/64,HK,,Hong Kong,
+2a0e:4001:3028:fffe::/64,HK,,Hong Kong,
 2a0e:4001:3030::/44,GB,,,
 2a0e:4001:3031:ff00::/64,GB,GB-ENG,London,
+2a0e:4001:3038:100::/64,GB,GB-ENG,London,
+2a0e:4001:3038:fffe::/64,GB,GB-ENG,London,
 2a0e:4001:3040::/44,,,,
 2a0e:4001:3042:100::1/128,HK,,Hong Kong,
 2a0e:4001:3042:100::10/128,CN,CN-GD,Shenzhen,
