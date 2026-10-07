@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-10-06T08:28:52.768590+00:00
-# Total prefixes: 1441
+# Generated at: 2026-10-07T08:04:31.608223+00:00
+# Total prefixes: 1436
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -965,14 +965,13 @@
 2a07:54c1:2205::/48,HK,,,
 2a07:54c1:2200::/48,US,,,
 
-# AS218538 - Argsment Limited - Last change: Sun, 04 Oct 2026 02:28:47 GMT
+# AS218538 - Argsment Limited - Last change: Tue, 06 Oct 2026 13:56:24 GMT
 46.232.237.0/24,JP,JP-26,Nagaokakyō,
 2a0f:1cc5:6000::/48,GB,GB-ENG,Winchester,
 2a0f:1cc5:6001::/48,HK,,Victoria City,
 2a0f:1cc5:6002::/48,DE,DE-HE,Rüsselsheim am Main,
-2a0f:1cc5:6003::/48,JP,JP-26,Nagaokakyō,
+2a0f:1cc5:6003::/48,TW,TW-HSZ,Hsinchu,
 2a0f:1cc5:6004::/48,JP,JP-26,Nagaokakyō,
-2a0f:1cc5:6005::/48,TW,TW-HSZ,Hsinchu,
 
 # AS218796 - GREYWIND Network - Last change: Tue, 06 Oct 2026 04:53:09 GMT
 2a0f:1cc5:57fb::/48,TW,TW-TPE,Taipei,
@@ -984,28 +983,24 @@
 2406:840:9111::/48,JP,JP-13,Shinagawa,
 2406:840:9112::/48,TW,TW-TPE,Taipei,
 
-# AS218883 - Melspectrum Technology Co., Ltd. - Last change: Mon, 05 Oct 2026 12:08:28 GMT
+# AS218883 - Melspectrum Technology Co., Ltd. - Last change: Tue, 06 Oct 2026 14:57:14 GMT
 2602:f92a:a463::/48,,,,
-2602:f92a:a463:400::80/128,US,US-CA,Los Angeles,
-2602:f92a:a463:700::1/128,US,US-CA,Los Angeles,
-2602:f92a:a463:ff00::2/128,US,,,
+2602:f92a:a463:400::/64,US,US-CA,Los Angeles,
+2602:f92a:a463:700::/64,US,US-CA,Los Angeles,
+2602:f92a:a463:ff00::/64,US,,,
 2a0e:4001:3010::/44,US,,,
-2a0e:4001:3010:400::/64,US,US-CA,Los Angeles,
-2a0e:4001:3011:ff00::/64,US,,,
-2a0e:4001:3018:100::/64,US,US-CA,Los Angeles,
-2a0e:4001:3018:fffe::/64,US,US-CA,Los Angeles,
+2a0e:4001:3010::/48,US,US-CA,Los Angeles,
+2a0e:4001:3011::/48,US,,,
+2a0e:4001:3018::/48,US,US-CA,Los Angeles,
 2a0e:4001:3020::/44,HK,,Hong Kong,
-2a0e:4001:3028:100::/64,HK,,Hong Kong,
-2a0e:4001:3028:fffe::/64,HK,,Hong Kong,
+2a0e:4001:3021::/48,HK,,Hong Kong,
+2a0e:4001:3028::/48,HK,,Hong Kong,
 2a0e:4001:3030::/44,GB,,,
-2a0e:4001:3031:ff00::/64,GB,GB-ENG,London,
-2a0e:4001:3038:100::/64,GB,GB-ENG,London,
-2a0e:4001:3038:fffe::/64,GB,GB-ENG,London,
+2a0e:4001:3031::/48,GB,GB-ENG,London,
+2a0e:4001:3038::/48,GB,GB-ENG,London,
 2a0e:4001:3040::/44,,,,
-2a0e:4001:3042:100::1/128,HK,,Hong Kong,
-2a0e:4001:3042:100::10/128,CN,CN-GD,Shenzhen,
-2a0e:4001:3048:200::1/128,HK,,Hong Kong,
-2a0e:4001:3048:200::10/128,CN,CN-GD,Shenzhen,
+2a0e:4001:3042::/48,HK,,Hong Kong,
+2a0e:4001:3048::/48,HK,,Hong Kong,
 2a0e:4001:30a0::/44,,,,
 2a0e:4001:30b0::/44,,,,
 
