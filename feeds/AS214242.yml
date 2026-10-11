@@ -12,4 +12,3 @@ contact: "aldrichx@aldrichx.uk"
 # Multiple URLs supported, each should point to an RFC 8805 compliant CSV file
 geofeed_urls:
   - "https://geofeed.aldrichx.uk/geofeed.csv"
-
