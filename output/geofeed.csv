@@ -1,5 +1,5 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-10-13T08:52:05.803797+00:00
+# Generated at: 2026-10-14T07:02:29.566343+00:00
 # Total prefixes: 1443
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
@@ -1307,9 +1307,9 @@
 2602:814:ffdc::/46,ZM,,,
 2602:814:ffe0::/46,ZW,,,
 
-# AS35145 - Nyatwork - Last change: Mon, 17 Aug 2026 13:15:15 GMT
-5.181.226.0/24,TW,,Taipei,
-2a0e:800::/48,TW,,Taipei,
+# AS35145 - Nyatwork - Last change: Tue, 13 Oct 2026 14:15:28 GMT
+5.181.226.0/24,CA,,Victoria,
+2a0e:800::/48,CA,,Victoria,
 
 # AS402333 - Tianshome Network Services - Last change: Tue, 22 Sep 2026 07:13:05 GMT
 2001:678:1184:8500::/56,HK,,Hong Kong (Chek Lap Kok),
