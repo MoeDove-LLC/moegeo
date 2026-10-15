@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-10-14T07:02:29.566343+00:00
-# Total prefixes: 1443
+# Generated at: 2026-10-15T06:53:25.043953+00:00
+# Total prefixes: 1450
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -818,8 +818,12 @@
 2602:f92a:a47d::/48,TW,TW-TPE,Taipei,
 2406:840:9178::/48,TW,TW-TPE,Taipei,
 
-# AS211585 - Maiyun Network - Last change: Wed, 02 Sep 2026 06:44:37 GMT
-44.30.70.0/24,US,US-PA,Pittsburgh,
+# AS211585 - Maiyun Network - Last change: Thu, 15 Oct 2026 06:53:14 GMT
+44.30.70.0/24,,,,
+44.30.70.0/28,,,,
+44.30.70.16/28,US,US-PA,Pittsburgh,
+44.30.70.32/27,US,US-CA,San Diego,92093
+44.30.70.64/29,,,,
 2001:67c:878:2a::/64,GB,GB-WLV,Wolverhampton,
 2001:67c:878:2a00::/56,GB,GB-WLV,Wolverhampton,
 2001:67c:878:2c::/64,US,US-CA,San Diego,
@@ -830,10 +834,11 @@
 2001:67c:878:be00::/56,US,US-PA,Pittsburgh,
 2001:67c:878:ca::/64,CA,CA-ON,Toronto,
 2001:67c:878:ca00::/56,CA,CA-ON,Toronto,
-2a0f:6282:2100::/48,,,,
-2a0f:6282:2101::/48,CN,,,
+2a0f:6282:2100::/45,GB,,,
+2a0f:6282:2108::/47,US,US-AZ,,
 2a0f:6282:210a::/48,CA,CA-ON,Toronto,
 2a0f:6282:210b::/48,JP,JP-13,Inzai,
+2a0f:6282:210c::/46,JP,,,
 
 # AS212985 - SKH Network - Last change: Sat, 18 Jul 2026 10:57:07 GMT
 2a13:a5c7:3301::/48,HK,,Hong Kong,
@@ -969,14 +974,15 @@
 2a07:54c1:2205::/48,HK,,,
 2a07:54c1:2200::/48,US,,,
 
-# AS218538 - Argsment Limited - Last change: Sat, 10 Oct 2026 04:10:10 GMT
+# AS218538 - Argsment Limited - Last change: Thu, 15 Oct 2026 01:41:42 GMT
 46.232.237.0/24,JP,JP-26,Nagaokakyō,617-0834
 2a0f:1cc5:6000::/48,GB,GB-ENG,Winchester,SO23
 2a0f:1cc5:6001::/48,HK,,Central,
-2a0f:1cc5:6002::/48,DE,DE-HE,Rüsselsheim am Main,65428
+2a0f:1cc5:6002::/48,HK,,Central,
 2a0f:1cc5:6003::/48,JP,JP-26,Nagaokakyō,617-0834
 2a0f:1cc5:6004::/48,JP,JP-26,Nagaokakyō,617-0834
 2a0f:1cc5:6005::/48,JP,JP-26,Nagaokakyō,617-0834
+2a0f:1cc5:6006::/48,JP,JP-26,Nagaokakyō,617-0834
 
 # AS218796 - GREYWIND Network - Last change: Tue, 06 Oct 2026 04:53:09 GMT
 2a0f:1cc5:57fb::/48,TW,TW-TPE,Taipei,
@@ -988,7 +994,7 @@
 2406:840:9111::/48,JP,JP-13,Shinagawa,
 2406:840:9112::/48,TW,TW-TPE,Taipei,
 
-# AS218883 - Melspectrum Technology Co., Ltd. - Last change: Thu, 08 Oct 2026 02:42:14 GMT
+# AS218883 - Melspectrum Technology Co., Ltd. - Last change: Wed, 14 Oct 2026 13:29:43 GMT
 2602:f92a:a463::/48,,,,
 2602:f92a:a463:400::/64,US,US-CA,Los Angeles,
 2602:f92a:a463:700::/64,US,US-CA,Los Angeles,
@@ -1008,6 +1014,7 @@
 2a0e:4001:3048::/48,HK,,Hong Kong,
 2a0e:4001:30a0::/44,JP,,,
 2a0e:4001:30a1::/48,JP,JP-13,Tokyo,
+2a0e:4001:30a8::/48,JP,JP-13,Tokyo,
 2a0e:4001:30b0::/44,,,,
 
 # AS219332 - Pmman Network - Last change: Thu, 06 Aug 2026 09:41:16 GMT
@@ -1307,9 +1314,9 @@
 2602:814:ffdc::/46,ZM,,,
 2602:814:ffe0::/46,ZW,,,
 
-# AS35145 - Nyatwork - Last change: Tue, 13 Oct 2026 14:15:28 GMT
-5.181.226.0/24,CA,,Victoria,
-2a0e:800::/48,CA,,Victoria,
+# AS35145 - Nyatwork - Last change: Wed, 14 Oct 2026 13:21:46 GMT
+5.181.226.0/24,TW,,Taipei,
+2a0e:800::/48,TW,,Taipei,
 
 # AS402333 - Tianshome Network Services - Last change: Tue, 22 Sep 2026 07:13:05 GMT
 2001:678:1184:8500::/56,HK,,Hong Kong (Chek Lap Kok),
