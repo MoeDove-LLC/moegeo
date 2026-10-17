@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-10-16T06:40:17.361620+00:00
-# Total prefixes: 1451
+# Generated at: 2026-10-17T06:29:15.582571+00:00
+# Total prefixes: 1452
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -1018,7 +1018,7 @@
 2a0e:4001:30a8::/48,JP,JP-13,Tokyo,
 2a0e:4001:30b0::/44,,,,
 
-# AS219332 - Pmman Network - Last change: Thu, 06 Aug 2026 09:41:16 GMT
+# AS219332 - Pmman Network - Last change: Fri, 16 Oct 2026 15:42:24 GMT
 2a0f:1cc5:4700::/40,JP,JP-13,Tokyo,
 2a0a:d685:300::/40,JP,JP-13,Tokyo,
 2a0a:d685:1ff::/48,HK,,Hong Kong,
@@ -1028,6 +1028,7 @@
 2a0f:1cc5:4702::/48,HK,,Hong Kong,
 2a0a:d685:301::/48,CN,,,
 2a0f:1cc5:4701::/48,CN,,,
+2a0f:1cc5:4777::/48,TW,TW-TPE,Taipei,
 
 # AS219378 - Sakarin Network - Last change: Fri, 09 Oct 2026 19:08:26 GMT
 2602:f92a:1310::/48,JP,JP-13,Tokyo,
