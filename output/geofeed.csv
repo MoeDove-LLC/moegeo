@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-10-18T06:54:21.135418+00:00
-# Total prefixes: 1454
+# Generated at: 2026-10-19T07:14:07.024031+00:00
+# Total prefixes: 1455
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -801,12 +801,12 @@
 2a01:e281:a400::/48,CN,CN-HB,Wuhan,
 2a01:e281:a410::/44,JP,JP-13,Tokyo,
 
-# AS210352 - ZeroWolf Network - Last change: Thu, 15 Oct 2026 14:59:23 GMT
+# AS210352 - ZeroWolf Network - Last change: Sun, 18 Oct 2026 10:25:01 GMT
 2a0f:1cc5:f00::/48,TW,TW-TPE,Taipei,
 2a0f:1cc5:f01::/48,HK,,Hong Kong,
 2a0f:1cc5:f02::/48,JP,JP-13,Tokyo,
 2a0f:1cc5:f03::/48,DE,DE-HE,Frankfurt,
-2a0f:1cc5:f04::/48,HK,,Hong Kong,
+2a0f:1cc5:f04::/48,DE,DE-HE,Frankfurt,
 2a0f:1cc5:f05::/48,HK,,Hong Kong,
 2a0f:1cc5:f06::/48,US,US-UT,Salt Lake City,
 2a0f:1cc5:f07::/48,JP,JP-13,Tokyo,
@@ -816,6 +816,7 @@
 2a0f:1cc5:f11::/48,GB,GB-ENG,Kent,
 2a0f:1cc5:f12::/48,HK,,Hong Kong,
 2a0f:1cc5:f13::/48,SG,,Singapore,
+2a0f:1cc5:f14::/48,DE,DE-HE,Frankfurt,
 2602:f92a:a47d::/48,TW,TW-TPE,Taipei,
 2406:840:9178::/48,TW,TW-TPE,Taipei,
 
