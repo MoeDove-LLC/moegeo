@@ -1,0 +1,11 @@
+# 组织名称 / Organization Name
+name: "XiaoLiNetwork"
+
+# 自治系统号 / Autonomous System Number
+asn: "AS201705"
+
+# 联系邮箱 / Contact Email
+contact: "noc@vh.gs"
+
+geofeed_urls:
+  - "https://geofeed.as201705.net/geofeed.csv"
