@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-10-20T07:02:58.997934+00:00
-# Total prefixes: 1448
+# Generated at: 2026-10-21T06:56:53.774148+00:00
+# Total prefixes: 1451
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -988,7 +988,7 @@
 2406:840:9111::/48,JP,JP-13,Shinagawa,
 2406:840:9112::/48,TW,TW-TPE,Taipei,
 
-# AS218883 - Melspectrum Technology Co., Ltd. - Last change: Wed, 14 Oct 2026 13:29:43 GMT
+# AS218883 - Melspectrum Technology Co., Ltd. - Last change: Tue, 20 Oct 2026 23:14:04 GMT
 2602:f92a:a463::/48,,,,
 2602:f92a:a463:400::/64,US,US-CA,Los Angeles,
 2602:f92a:a463:700::/64,US,US-CA,Los Angeles,
@@ -1006,6 +1006,9 @@
 2a0e:4001:3040::/44,,,,
 2a0e:4001:3042::/48,HK,,Hong Kong,
 2a0e:4001:3048::/48,HK,,Hong Kong,
+2a0e:4001:3060::/44,TW,,,
+2a0e:4001:3061::/48,TW,TW-TPE,Taipei,
+2a0e:4001:3068::/48,TW,TW-TPE,Taipei,
 2a0e:4001:30a0::/44,JP,,,
 2a0e:4001:30a1::/48,JP,JP-13,Tokyo,
 2a0e:4001:30a8::/48,JP,JP-13,Tokyo,
