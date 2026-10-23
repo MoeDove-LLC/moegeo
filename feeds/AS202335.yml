@@ -1,0 +1,9 @@
+name: "Haima Global Network"
+
+asn: "AS202335"
+
+contact: "noc@peers.cloud"
+
+geofeed_urls:
+  - "https://peers.cloud/geofeed.csv"
+  - "https://network.peers.cloud/geofeed.csv"
