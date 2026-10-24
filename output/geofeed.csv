@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-10-23T06:52:42.194535+00:00
-# Total prefixes: 1462
+# Generated at: 2026-10-24T06:48:53.337313+00:00
+# Total prefixes: 1473
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -709,6 +709,18 @@
 2a14:7dc0:51b::/48,JP,,,
 2a14:7dc0:51c::/48,GB,,,
 
+# AS202335 - Haima Global Network - Last change: Fri, 23 Oct 2026 12:18:55 GMT
+2a0f:1cc5:2600::/44,DE,DE-HE,Frankfurt,
+2a0f:1cc5:2608::/45,GB,GB-LND,London,
+2a0f:1cc5:2608:2500::/64,GB,GB-SHF,Sheffield,
+2a0f:1cc5:2608:2501::/64,GB,GB-SHF,Sheffield,
+2a0f:1cc5:2610::/45,NL,NL-NH,Amsterdam,
+2a0f:1cc5:26c0::/44,US,US-MO,Kansas City,
+2a0f:1cc5:2680::/46,SG,SG-01,Singapore,
+2a0f:1cc5:2640::/45,JP,JP-13,Tokyo,
+2a0f:1cc5:264c::/46,TW,TW-TPE,Taipei,
+2a0f:1cc5:2609::/48,GB,GB-KEN,Maidstone,
+
 # AS202939 - Chimon Technology Ltd - Last change: Wed, 21 Oct 2026 13:05:01 GMT
 2a0a:6040:3510::/48,JP,JP-13,Tokyo,
 2a0a:6040:3510::/46,JP,,,
@@ -1039,9 +1051,10 @@
 2a0f:1cc5:4701::/48,CN,,,
 2a0f:1cc5:4777::/48,TW,TW-TPE,Taipei,
 
-# AS219378 - Sakarin Network - Last change: Sat, 17 Oct 2026 14:04:48 GMT
+# AS219378 - Sakarin Network - Last change: Fri, 23 Oct 2026 19:58:42 GMT
 2602:f92a:1310::/48,JP,JP-13,Tokyo,
 2a0e:4005:ff20::/48,SG,SG-01,Singapore,
+2a0e:4005:ffd0::/48,TW,TW-TPE,Taipei,
 2a0e:4005:ffdd::/48,HK,,Hong Kong,
 2a0f:1cc5:4500::/45,CN,CN-SH,Shanghai,
 2a0f:1cc5:4508::/46,HK,,Hong Kong,
