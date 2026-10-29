@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-10-28T07:52:00.232527+00:00
-# Total prefixes: 1450
+# Generated at: 2026-10-29T07:56:38.291892+00:00
+# Total prefixes: 1474
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -710,7 +710,7 @@
 2a14:7dc0:51b::/48,JP,,,
 2a14:7dc0:51c::/48,GB,,,
 
-# AS202335 - Haima Global Network - Last change: Fri, 23 Oct 2026 12:18:55 GMT
+# AS202335 - Haima Global Network - Last change: Wed, 28 Oct 2026 18:54:16 GMT
 2a0f:1cc5:2600::/44,DE,DE-HE,Frankfurt,
 2a0f:1cc5:2608::/45,GB,GB-LND,London,
 2a0f:1cc5:2608:2500::/64,GB,GB-SHF,Sheffield,
@@ -719,6 +719,7 @@
 2a0f:1cc5:26c0::/44,US,US-MO,Kansas City,
 2a0f:1cc5:2680::/46,SG,SG-01,Singapore,
 2a0f:1cc5:2640::/45,JP,JP-13,Tokyo,
+2a0f:1cc5:2650::/44,JP,JP-13,Tokyo,
 2a0f:1cc5:264c::/46,TW,TW-TPE,Taipei,
 2a0f:1cc5:2609::/48,GB,GB-KEN,Maidstone,
 
@@ -759,6 +760,21 @@
 2a0c:9a40:84c0::/44,DE,DE-HE,Frankfurt am Main,
 2a0a:6040:300::/40,DE,DE-HE,Frankfurt am Main,
 2a0a:6040:e300::/40,AU,AU-NSW,Sydney,
+
+# AS203923 - Hoyoverse Network - Last change: Thu, 01 Oct 2026 10:18:35 GMT
+2a0f:1cc5:401::/48,HK,,Tsuen Wan,999077
+2a0f:1cc5:402::/48,MO,,Macao,999078
+2a0f:1cc5:403::/48,JP,JP-13,Tokyo,100-0001
+2a0f:1cc5:404::/48,TW,,Tainan,708
+2a0f:1cc5:405::/48,GB,GB-ENG,London,999020
+2a0f:1cc5:406::/48,MY,,Kuala Lumpur,50000
+2a0f:1cc5:407::/48,HK,,Tsuen Wan,999077
+2a0f:1cc5:408::/48,GB,GB-ENG,London,999020
+2a0f:1cc5:409::/48,DE,DE-HE,Frankfurt,60311
+2406:840:9666::/48,MO,,Macao,999078
+2406:840:9661::/48,SG,,Singapore,018989
+141.11.238.0/24,HK,,Tsuen Wan,999077
+141.11.193.0/24,HK,,Tsuen Wan,999077
 
 # AS204535 - Kevin Tan Networks - Last change: Fri, 02 Oct 2026 07:52:15 GMT
 2a0f:1cc6:bab1::/48,MY,MY-14,Kuala Lumpur,
@@ -975,6 +991,17 @@
 2a07:54c1:2205::/48,HK,,Kowloon,
 2a07:54c1:2206::/48,DE,DE-HE,Frankfurt,
 2a07:54c1:2200::/48,US,US-NY,New York,
+
+# AS218538 - Argsment Limited - Last change: Tue, 20 Oct 2026 06:17:49 GMT
+46.232.237.0/24,JP,JP-13,Shinjuku,160-0022
+2a0f:1cc5:6000::/48,GB,GB-ENG,Winchester,SO23
+2a0f:1cc5:6001::/48,HK,,Central,
+2a0f:1cc5:6002::/48,HK,,Central,
+2a0f:1cc5:6003::/48,JP,JP-13,Shinjuku,160-0022
+2a0f:1cc5:6004::/48,JP,JP-13,Shinjuku,160-0022
+2a0f:1cc5:6005::/48,JP,JP-13,Shinjuku,160-0022
+2a0f:1cc5:6006::/48,JP,JP-13,Shinjuku,160-0022
+2a0f:1cc5:6007::/48,JP,JP-13,Shinjuku,160-0022
 
 # AS218796 - GREYWIND Network - Last change: Tue, 06 Oct 2026 04:53:09 GMT
 2a0f:1cc5:57fb::/48,TW,TW-TPE,Taipei,
@@ -1510,7 +1537,7 @@
 2a0e:aa07:e257::/48,US,US-WA,Seattle,
 2a0e:aa07:e258::/48,US,US-CA,San Jose,
 
-# AS215172 - JianyueLab LTD - Last change: Fri, 03 Jul 2026 07:28:34 GMT
+# AS215172 - JianyueLab LTD - Last change: Thu, 29 Oct 2026 05:18:24 GMT
 82.39.145.0/24,JP,JP-13,Chiyoda,100-0004
 208.68.182.0/24,JP,JP-13,Chiyoda,100-0004
 2a0f:1cc5:208::/48,JP,JP-13,Chiyoda,100-0004
@@ -1525,3 +1552,4 @@
 2a0f:1cc5:290::/44,DE,,Frankfurt,
 2a0f:1cc5:2a0::/44,CA,,Toronto,
 2a0f:1cc5:2b0::/44,NL,,Amsterdam,
+2a12:cb40::/29,GB,,London,
