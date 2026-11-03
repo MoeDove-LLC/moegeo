@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-11-02T08:46:26.941423+00:00
-# Total prefixes: 1467
+# Generated at: 2026-11-03T08:56:39.917612+00:00
+# Total prefixes: 1468
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -1511,11 +1511,12 @@
 163.52.212.0/23,JP,JP-36,Okuizumo,699-1511
 23.246.164.0/22,US,US-CA,El Segundo,90245
 
-# AS62711 - Maxwell Telecom LLC - Last change: Tue, 15 Sep 2026 15:17:09 GMT
+# AS62711 - Maxwell Telecom LLC - Last change: Tue, 03 Nov 2026 04:52:26 GMT
 23.175.200.0/24,US,US-CA,Los Angeles,
 23.175.201.0/24,HK,,Hong Kong,
 2602:F921::/44,US,,,
 2602:f921:4::/46,US,US-MO,Kansas City,
+199.246.120.0/22,US,US-CA,Los Angeles,
 2602:F921:E00::/48,PH,PH-00,Manila,
 
 # AS204921 - YunZheng LAB - Last change: Wed, 02 Sep 2026 06:44:49 GMT
