@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-11-04T08:30:48.309138+00:00
-# Total prefixes: 1473
+# Generated at: 2026-11-05T08:53:27.479735+00:00
+# Total prefixes: 1474
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -1480,7 +1480,7 @@
 2a0f:5707:fa30::/48,AU,AU-NSW,Sydney,
 2a0f:5707:fafa::/48,DE,DE-HE,Frankfurt,
 
-# AS54286 - Taipei101 Network LLC - Last change: Wed, 04 Nov 2026 08:30:46 GMT
+# AS54286 - Taipei101 Network LLC - Last change: Thu, 05 Nov 2026 08:53:26 GMT
 23.147.120.0/24,US,US-CA,El Segundo,90245
 64.49.28.0/24,US,US-CA,El Segundo,90245
 23.147.120.232/32,KR,KR-11,Seoul,1006
@@ -1515,6 +1515,7 @@
 202.50.60.0/24,TW,TW-TTT,Lyudao Township,951005
 202.50.61.0/24,TW,TW-TTT,Lyudao Township,951005
 2001:df7:cdc0::/48,TW,TW-TTT,Lyudao Township,951005
+205.207.248.0/22,US,US-CA,El Segundo,90245
 
 # AS62711 - Maxwell Telecom LLC - Last change: Tue, 03 Nov 2026 04:52:26 GMT
 23.175.200.0/24,US,US-CA,Los Angeles,
