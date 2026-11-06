@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-11-05T08:53:27.479735+00:00
-# Total prefixes: 1474
+# Generated at: 2026-11-06T08:52:58.318707+00:00
+# Total prefixes: 1472
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -749,7 +749,7 @@
 2a0a:6040:300::/40,DE,DE-HE,Frankfurt am Main,
 2a0a:6040:e300::/40,AU,AU-NSW,Sydney,
 
-# AS203923 - Hoyoverse Network - Last change: Thu, 01 Oct 2026 10:18:35 GMT
+# AS203923 - Hoyoverse Network - Last change: Thu, 05 Nov 2026 15:07:02 GMT
 2a0f:1cc5:401::/48,HK,,Tsuen Wan,999077
 2a0f:1cc5:402::/48,MO,,Macao,999078
 2a0f:1cc5:403::/48,JP,JP-13,Tokyo,100-0001
@@ -761,7 +761,7 @@
 2a0f:1cc5:409::/48,DE,DE-HE,Frankfurt,60311
 2406:840:9666::/48,MO,,Macao,999078
 2406:840:9661::/48,SG,,Singapore,018989
-141.11.238.0/24,HK,,Tsuen Wan,999077
+150.129.43.0/24,HK,,Tsuen Wan,999077
 141.11.193.0/24,HK,,Tsuen Wan,999077
 
 # AS204535 - Kevin Tan Networks - Last change: Fri, 02 Oct 2026 07:52:15 GMT
@@ -1329,10 +1329,6 @@
 2602:814:ffd8::/46,ZA,,,
 2602:814:ffdc::/46,ZM,,,
 2602:814:ffe0::/46,ZW,,,
-
-# AS35145 - Nyatwork - Last change: Wed, 14 Oct 2026 13:21:46 GMT
-5.181.226.0/24,TW,,Taipei,
-2a0e:800::/48,TW,,Taipei,
 
 # AS402333 - Tianshome Network Services - Last change: Tue, 22 Sep 2026 07:13:05 GMT
 2001:678:1184:8500::/56,HK,,Hong Kong (Chek Lap Kok),
