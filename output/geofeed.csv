@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-11-06T08:52:58.318707+00:00
-# Total prefixes: 1472
+# Generated at: 2026-11-07T08:13:33.564737+00:00
+# Total prefixes: 1474
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -1041,9 +1041,9 @@
 2a0f:1cc5:4701::/48,CN,,,
 2a0f:1cc5:4777::/48,TW,TW-TPE,Taipei,
 
-# AS219378 - Sakarin Network - Last change: Sun, 01 Nov 2026 03:41:26 GMT
+# AS219378 - Sakarin Network - Last change: Sat, 07 Nov 2026 07:45:29 GMT
 2602:f92a:1310::/48,JP,JP-13,Tokyo,
-2a0e:4005:ff10::/48,SG,SG-01,Singapore,
+2a0e:4005:ff10::/48,SG,SG-02,Kampong Loyang,
 2a0e:4005:ff20::/48,SG,SG-01,Singapore,
 2a0e:4005:ffd0::/48,TW,TW-TPE,Taipei,
 2a0e:4005:ffdd::/48,HK,,Hong Kong,
@@ -1329,6 +1329,10 @@
 2602:814:ffd8::/46,ZA,,,
 2602:814:ffdc::/46,ZM,,,
 2602:814:ffe0::/46,ZW,,,
+
+# AS35145 - Nyatwork - Last change: Wed, 14 Oct 2026 13:21:46 GMT
+5.181.226.0/24,TW,,Taipei,
+2a0e:800::/48,TW,,Taipei,
 
 # AS402333 - Tianshome Network Services - Last change: Tue, 22 Sep 2026 07:13:05 GMT
 2001:678:1184:8500::/56,HK,,Hong Kong (Chek Lap Kok),
