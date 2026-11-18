@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-11-17T10:03:05.890961+00:00
-# Total prefixes: 1495
+# Generated at: 2026-11-18T09:40:03.347834+00:00
+# Total prefixes: 1500
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -711,7 +711,7 @@
 2a14:7dc0:51c::/48,GB,,,
 2a14:7dc0:51d::/48,DE,,,
 
-# AS202335 - Haima Global Network - Last change: Wed, 28 Oct 2026 18:54:16 GMT
+# AS202335 - Haima Global Network - Last change: Tue, 17 Nov 2026 18:31:01 GMT
 2a0f:1cc5:2600::/44,DE,DE-HE,Frankfurt,
 2a0f:1cc5:2608::/45,GB,GB-LND,London,
 2a0f:1cc5:2608:2500::/64,GB,GB-SHF,Sheffield,
@@ -723,6 +723,8 @@
 2a0f:1cc5:2650::/44,JP,JP-13,Tokyo,
 2a0f:1cc5:264c::/46,TW,TW-TPE,Taipei,
 2a0f:1cc5:2609::/48,GB,GB-KEN,Maidstone,
+2a0f:1cc5:26c8::/45,CA,CA-ON,Toronto,
+2a0f:1cc5:26c8::/48,CA,CA-AB,Calgary,
 
 # AS202939 - Chimon Technology Ltd - Last change: Wed, 21 Oct 2026 13:05:01 GMT
 2a0a:6040:3510::/48,JP,JP-13,Tokyo,
@@ -998,6 +1000,10 @@
 2a07:54c1:2208::/48,JP,JP-13,Tokyo,
 2a07:54c1:2200::/48,US,US-NY,New York,
 
+# AS218155 - Thalweg Labs LLC - Last change: Wed, 18 Nov 2026 09:39:49 GMT
+143.203.45.0/24,JP,JP-13,Tokyo,
+2a12:cb40:9::/48,JP,JP-13,Tokyo,
+
 # AS218538 - Argsment Limited - Last change: Sat, 14 Nov 2026 06:53:10 GMT
 141.229.14.0/24,JP,,,
 141.229.15.0/24,TW,,,
@@ -1083,7 +1089,7 @@
 2a0f:1cc5:4560::/44,TW,TW-TPE,Taipei,
 2a0f:1cc5:45ff::/48,,,,
 
-# AS23347 - ZYC Network LLC - Last change: Tue, 15 Sep 2026 15:26:03 GMT
+# AS23347 - ZYC Network LLC - Last change: Wed, 18 Nov 2026 08:18:11 GMT
 2602:814:F000::/46,US,,,
 2602:814:F000::/48,US,US-CA,Los Angeles,
 2602:814:F001::/48,US,US-MO,Kansas City,
@@ -1105,6 +1111,7 @@
 2602:814:f016::/48,IE,IE-L,Dublin,
 2602:814:f018::/46,GB,GB-LND,London,
 2602:F921:E00::/44,PH,PH-00,Manila,
+199.244.176.0/22,HK,,Hong Kong,
 2602:814:fc00::/46,AD,,,
 2602:814:fc04::/46,AE,,,
 2602:814:fc08::/46,AF,,,
