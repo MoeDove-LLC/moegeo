@@ -1,0 +1,5 @@
+name: "cipher.moe"
+asn: "AS206098"
+contact: "noc@as206098.net"
+geofeed_urls:
+  - "https://assets.as206098.net/geofeed.csv"
