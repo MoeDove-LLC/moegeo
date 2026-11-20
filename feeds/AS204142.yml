@@ -1,0 +1,5 @@
+name: "Qiankai Lin"
+asn: "AS204142"
+contact: "417350372@qq.com"
+geofeed_urls:
+  - "https://raw.githubusercontent.com/Kotodian/geofeed/main/geofeed.csv"
