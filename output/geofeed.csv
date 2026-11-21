@@ -1,6 +1,6 @@
 # Geofeed Community Aggregation by MoeDove LLC
-# Generated at: 2026-11-20T09:34:42.590108+00:00
-# Total prefixes: 1512
+# Generated at: 2026-11-21T09:06:42.346571+00:00
+# Total prefixes: 1515
 
 # AS135671 - RBB InfoTech - Last change: Wed, 26 Aug 2026 09:08:39 GMT
 44.31.28.0/24,US,US-MO,Kansas City,
@@ -780,6 +780,9 @@
 141.11.193.0/24,HK,,Tsuen Wan,999077
 79.182.191.0/24,HK,,Tsuen Wan,999077
 
+# AS204142 - Qiankai Lin - Last change: Sat, 21 Nov 2026 09:06:28 GMT
+2a0f:1cc5:3500::/40,US,US-WA,Seattle,98101
+
 # AS204535 - Kevin Tan Networks - Last change: Fri, 02 Oct 2026 07:52:15 GMT
 2a0f:1cc6:bab1::/48,MY,MY-14,Kuala Lumpur,
 2a0f:1cc6:bab2::/48,SG,,Singapore,
@@ -902,9 +905,10 @@
 2602:f92a:a462::/48,HK,,Hong Kong,
 2a0f:1cc5:2010::/44,HK,,Hong Kong,
 
-# AS214731 - ETO Networks Limited - Last change: Sat, 26 Sep 2026 06:59:36 GMT
+# AS214731 - ETO Networks Limited - Last change: Sat, 21 Nov 2026 09:06:32 GMT
 2a0d:2686:1000::/40,JP,JP-12,Tokyo,
 2a0d:2686:2000::/40,SG,,Singapore,
+2a0d:2686:3000::/40,US,,,
 2a01:e281:ad00::/43,US,US-NV,Las Vegas,
 2a01:e281:ad20::/43,SG,,Singapore,
 2a01:e281:ad40::/43,TW,TW-TPE,Taipei,
@@ -1523,7 +1527,7 @@
 2a0f:5707:fa30::/48,AU,AU-NSW,Sydney,
 2a0f:5707:fafa::/48,DE,DE-HE,Frankfurt,
 
-# AS54286 - Taipei101 Network LLC - Last change: Thu, 12 Nov 2026 05:12:49 GMT
+# AS54286 - Taipei101 Network LLC - Last change: Sat, 21 Nov 2026 09:06:40 GMT
 23.147.120.0/24,US,US-CA,El Segundo,90245
 64.49.28.0/24,US,US-CA,El Segundo,90245
 23.147.120.232/32,KR,KR-11,Seoul,1006
@@ -1560,6 +1564,7 @@
 2001:df7:cdc0::/48,TW,TW-TTT,Lyudao Township,951005
 205.207.248.0/22,US,US-CA,El Segundo,90245
 2602:faa8:759::/48,US,US-CA,El Segundo,90245
+2602:faa8:90::/44,US,US-CA,El Segundo,90245
 
 # AS62711 - Maxwell Telecom LLC - Last change: Tue, 03 Nov 2026 04:52:26 GMT
 23.175.200.0/24,US,US-CA,Los Angeles,
